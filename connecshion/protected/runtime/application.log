@@ -1,0 +1,1759 @@
+2013/04/06 16:35:32 [error] [exception.CException] exception 'CException' with message 'Property "LoginForm.username" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\connecshion\protected\models\LoginForm.php(51): CComponent->__get('username')
+#1 C:\wamp\www\yii\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#2 C:\wamp\www\yii\framework\validators\CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#3 C:\wamp\www\yii\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#4 C:\wamp\www\connecshion\protected\controllers\SiteController.php(94): CModel->validate()
+#5 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#6 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#10 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#11 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#12 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/connecshion/index.php/site/login
+HTTP_REFERER=http://localhost/connecshion/index.php/site/login
+---
+2013/04/06 16:35:53 [error] [exception.CException] exception 'CException' with message 'Property "UserIdentity.email" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\connecshion\protected\components\UserIdentity.php(25): CComponent->__get('email')
+#1 C:\wamp\www\connecshion\protected\models\LoginForm.php(52): UserIdentity->authenticate()
+#2 C:\wamp\www\yii\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#3 C:\wamp\www\yii\framework\validators\CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#4 C:\wamp\www\yii\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#5 C:\wamp\www\connecshion\protected\controllers\SiteController.php(94): CModel->validate()
+#6 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#7 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#11 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#12 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#13 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/connecshion/index.php/site/login
+HTTP_REFERER=http://localhost/connecshion/index.php/site/login
+---
+2013/04/06 16:36:21 [error] [exception.CException] exception 'CException' with message 'Property "UserIdentity.email" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\connecshion\protected\components\UserIdentity.php(25): CComponent->__get('email')
+#1 C:\wamp\www\connecshion\protected\models\LoginForm.php(52): UserIdentity->authenticate()
+#2 C:\wamp\www\yii\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#3 C:\wamp\www\yii\framework\validators\CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#4 C:\wamp\www\yii\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#5 C:\wamp\www\connecshion\protected\controllers\SiteController.php(94): CModel->validate()
+#6 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#7 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#11 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#12 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#13 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/connecshion/index.php/site/login
+HTTP_REFERER=http://localhost/connecshion/index.php/site/login
+---
+2013/04/06 16:53:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/connecshion/index.php/admin/
+---
+2013/04/06 16:54:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/connecshion/index.php/admin/
+---
+2013/04/06 16:54:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/connecshion/index.php/admin/
+---
+2013/04/06 16:55:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/connecshion/admin/
+---
+2013/04/06 16:55:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Admin".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Admin')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/connecshion/Admin/
+---
+2013/04/06 16:58:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Admin".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Admin')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/connecshion/Admin/
+---
+2013/04/06 16:58:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Admin".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Admin')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/connecshion/Admin/
+---
+2013/04/06 16:58:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/connecshion/admin/
+---
+2013/04/06 16:59:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Admin".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Admin')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/connecshion/Admin/
+---
+2013/04/06 17:14:33 [error] [exception.CDbException] exception 'CDbException' with message 'Table "user" does not have a column named "email".' in C:\wamp\www\yii\framework\db\schema\CDbCommandBuilder.php:591
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\ar\CActiveRecord.php(1464): CDbCommandBuilder->createColumnCriteria(Object(CMysqlTableSchema), Array, '', Array, '`t`.')
+#1 C:\wamp\www\connecshion\protected\components\UserIdentity.php(22): CActiveRecord->findByAttributes(Array)
+#2 C:\wamp\www\connecshion\protected\models\LoginForm.php(53): UserIdentity->authenticate()
+#3 C:\wamp\www\yii\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#4 C:\wamp\www\yii\framework\validators\CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#5 C:\wamp\www\yii\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#6 C:\wamp\www\connecshion\protected\controllers\SiteController.php(94): CModel->validate()
+#7 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#8 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#12 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#13 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#14 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/connecshion/index.php/site/login
+HTTP_REFERER=http://localhost/connecshion/index.php/site/login
+---
+2013/04/06 17:15:01 [error] [exception.CException] exception 'CException' with message 'Property "User.password" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\ar\CActiveRecord.php(143): CComponent->__get('password')
+#1 C:\wamp\www\connecshion\protected\components\UserIdentity.php(25): CActiveRecord->__get('password')
+#2 C:\wamp\www\connecshion\protected\models\LoginForm.php(53): UserIdentity->authenticate()
+#3 C:\wamp\www\yii\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#4 C:\wamp\www\yii\framework\validators\CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#5 C:\wamp\www\yii\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#6 C:\wamp\www\connecshion\protected\controllers\SiteController.php(94): CModel->validate()
+#7 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#8 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#12 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#13 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#14 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/connecshion/index.php/site/login
+HTTP_REFERER=http://localhost/connecshion/index.php/site/login
+---
+2013/04/06 17:15:26 [error] [exception.CException] exception 'CException' with message 'Property "User.username" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\ar\CActiveRecord.php(143): CComponent->__get('username')
+#1 C:\wamp\www\connecshion\protected\components\UserIdentity.php(30): CActiveRecord->__get('username')
+#2 C:\wamp\www\connecshion\protected\models\LoginForm.php(53): UserIdentity->authenticate()
+#3 C:\wamp\www\yii\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#4 C:\wamp\www\yii\framework\validators\CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#5 C:\wamp\www\yii\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#6 C:\wamp\www\connecshion\protected\controllers\SiteController.php(94): CModel->validate()
+#7 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#8 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#12 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#13 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#14 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/connecshion/index.php/site/login
+HTTP_REFERER=http://localhost/connecshion/index.php/site/login
+---
+2013/04/06 17:15:31 [error] [exception.CException] exception 'CException' with message 'Property "User.username" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\ar\CActiveRecord.php(143): CComponent->__get('username')
+#1 C:\wamp\www\connecshion\protected\components\UserIdentity.php(30): CActiveRecord->__get('username')
+#2 C:\wamp\www\connecshion\protected\models\LoginForm.php(53): UserIdentity->authenticate()
+#3 C:\wamp\www\yii\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#4 C:\wamp\www\yii\framework\validators\CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#5 C:\wamp\www\yii\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#6 C:\wamp\www\connecshion\protected\controllers\SiteController.php(94): CModel->validate()
+#7 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#8 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#12 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#13 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#14 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/connecshion/index.php/site/login
+HTTP_REFERER=http://localhost/connecshion/index.php/site/login
+---
+2013/04/06 17:25:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "register".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('register')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/connecshion/index.php/register/
+---
+2013/04/06 17:25:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Register".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Register')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/connecshion/index.php/Register
+---
+2013/04/06 17:26:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Register".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Register')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/connecshion/index.php/Register
+---
+2013/04/06 17:26:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Register".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Register')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/connecshion/index.php/Register/
+---
+2013/04/06 17:26:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "register".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('register')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/connecshion/index.php/register/
+---
+2013/04/06 17:26:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "register".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('register')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/connecshion/register/
+---
+2013/04/06 17:26:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "contact".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('contact')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/connecshion/contact/
+---
+2013/04/06 17:26:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "contacts".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('contacts')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/connecshion/contacts/
+---
+2013/04/06 17:27:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "register".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('register')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/connecshion/register
+---
+2013/04/06 17:27:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Logout".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Logout')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/connecshion/Logout/
+---
+2013/04/06 17:27:30 [error] [exception.CException] exception 'CException' with message 'Property "User.email" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\ar\CActiveRecord.php(143): CComponent->__get('email')
+#1 C:\wamp\www\yii\framework\web\helpers\CHtml.php(2255): CActiveRecord->__get('email')
+#2 C:\wamp\www\yii\framework\web\helpers\CHtml.php(1980): CHtml::resolveValue(Object(User), 'email')
+#3 C:\wamp\www\yii\framework\web\helpers\CHtml.php(1257): CHtml::activeInputField('text', Object(User), 'email', Array)
+#4 C:\wamp\www\yii\framework\web\widgets\CActiveForm.php(657): CHtml::activeTextField(Object(User), 'email', Array)
+#5 C:\wamp\www\connecshion\protected\views\site\login.php(29): CActiveForm->textField(Object(User), 'email')
+#6 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\wamp\www\con...')
+#7 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\con...', Array, true)
+#8 C:\wamp\www\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\con...', Array, true)
+#9 C:\wamp\www\yii\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#10 C:\wamp\www\connecshion\protected\controllers\SiteController.php(117): CController->render('login', Array)
+#11 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionRegister()
+#12 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#14 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('Register')
+#16 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/Register')
+#17 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#18 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/connecshion/site/Register/
+---
+2013/04/06 17:29:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "afterRegister".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('afterRegister')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('afterRegister')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/afterRegis...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/connecshion/index.php/site/afterRegister/2
+HTTP_REFERER=http://localhost/connecshion/site/Register/
+---
+2013/04/06 18:13:40 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.username" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\auth\CWebUser.php(140): CComponent->__get('username')
+#1 C:\wamp\www\connecshion\protected\views\layouts\main.php(36): CWebUser->__get('username')
+#2 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\wamp\www\con...')
+#3 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\con...', Array, true)
+#4 C:\wamp\www\yii\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\wamp\www\con...', Array, true)
+#5 C:\wamp\www\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#6 C:\wamp\www\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#7 C:\wamp\www\yii\framework\web\CBaseController.php(206): COutputProcessor->run()
+#8 C:\wamp\www\yii\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#9 C:\wamp\www\connecshion\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#10 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\wamp\www\con...')
+#11 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\con...', Array, true)
+#12 C:\wamp\www\yii\framework\web\CController.php(784): CBaseController->renderFile('C:\wamp\www\con...', Array, true)
+#13 C:\wamp\www\connecshion\protected\controllers\SiteController.php(32): CController->render('index')
+#14 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#15 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#17 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('')
+#19 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#20 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#21 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/connecshion/index.php
+HTTP_REFERER=http://localhost/connecshion/index.php/site/login
+---
+2013/04/06 18:13:58 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.username" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\auth\CWebUser.php(140): CComponent->__get('username')
+#1 C:\wamp\www\connecshion\protected\views\layouts\main.php(36): CWebUser->__get('username')
+#2 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\wamp\www\con...')
+#3 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\con...', Array, true)
+#4 C:\wamp\www\yii\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\wamp\www\con...', Array, true)
+#5 C:\wamp\www\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#6 C:\wamp\www\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#7 C:\wamp\www\yii\framework\web\CBaseController.php(206): COutputProcessor->run()
+#8 C:\wamp\www\yii\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#9 C:\wamp\www\connecshion\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#10 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\wamp\www\con...')
+#11 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\con...', Array, true)
+#12 C:\wamp\www\yii\framework\web\CController.php(784): CBaseController->renderFile('C:\wamp\www\con...', Array, true)
+#13 C:\wamp\www\connecshion\protected\controllers\SiteController.php(32): CController->render('index')
+#14 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#15 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#17 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('')
+#19 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#20 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#21 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/connecshion/index.php
+HTTP_REFERER=http://localhost/connecshion/index.php/site/login
+---
+2013/04/06 18:13:59 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.username" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\auth\CWebUser.php(140): CComponent->__get('username')
+#1 C:\wamp\www\connecshion\protected\views\layouts\main.php(36): CWebUser->__get('username')
+#2 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\wamp\www\con...')
+#3 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\con...', Array, true)
+#4 C:\wamp\www\yii\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\wamp\www\con...', Array, true)
+#5 C:\wamp\www\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#6 C:\wamp\www\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#7 C:\wamp\www\yii\framework\web\CBaseController.php(206): COutputProcessor->run()
+#8 C:\wamp\www\yii\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#9 C:\wamp\www\connecshion\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#10 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\wamp\www\con...')
+#11 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\con...', Array, true)
+#12 C:\wamp\www\yii\framework\web\CController.php(784): CBaseController->renderFile('C:\wamp\www\con...', Array, true)
+#13 C:\wamp\www\connecshion\protected\controllers\SiteController.php(32): CController->render('index')
+#14 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#15 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#17 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('')
+#19 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#20 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#21 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/connecshion/index.php
+HTTP_REFERER=http://localhost/connecshion/index.php/site/login
+---
+2013/04/06 18:14:01 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.username" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\auth\CWebUser.php(140): CComponent->__get('username')
+#1 C:\wamp\www\connecshion\protected\views\layouts\main.php(36): CWebUser->__get('username')
+#2 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\wamp\www\con...')
+#3 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\con...', Array, true)
+#4 C:\wamp\www\yii\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\wamp\www\con...', Array, true)
+#5 C:\wamp\www\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#6 C:\wamp\www\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#7 C:\wamp\www\yii\framework\web\CBaseController.php(206): COutputProcessor->run()
+#8 C:\wamp\www\yii\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#9 C:\wamp\www\connecshion\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#10 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\wamp\www\con...')
+#11 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\con...', Array, true)
+#12 C:\wamp\www\yii\framework\web\CController.php(784): CBaseController->renderFile('C:\wamp\www\con...', Array, true)
+#13 C:\wamp\www\connecshion\protected\controllers\SiteController.php(32): CController->render('index')
+#14 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#15 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#17 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('')
+#19 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#20 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#21 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/connecshion/index.php
+---
+2013/04/06 18:15:29 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.Username" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\auth\CWebUser.php(140): CComponent->__get('Username')
+#1 C:\wamp\www\connecshion\protected\views\layouts\main.php(36): CWebUser->__get('Username')
+#2 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\wamp\www\con...')
+#3 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\con...', Array, true)
+#4 C:\wamp\www\yii\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\wamp\www\con...', Array, true)
+#5 C:\wamp\www\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#6 C:\wamp\www\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#7 C:\wamp\www\yii\framework\web\CBaseController.php(206): COutputProcessor->run()
+#8 C:\wamp\www\yii\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#9 C:\wamp\www\connecshion\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#10 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\wamp\www\con...')
+#11 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\con...', Array, true)
+#12 C:\wamp\www\yii\framework\web\CController.php(784): CBaseController->renderFile('C:\wamp\www\con...', Array, true)
+#13 C:\wamp\www\connecshion\protected\controllers\SiteController.php(32): CController->render('index')
+#14 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#15 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#17 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('')
+#19 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#20 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#21 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/connecshion/index.php
+HTTP_REFERER=http://localhost/connecshion/index.php
+---
+2013/04/06 18:16:10 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.Username" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\auth\CWebUser.php(140): CComponent->__get('Username')
+#1 C:\wamp\www\connecshion\protected\views\layouts\main.php(36): CWebUser->__get('Username')
+#2 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\wamp\www\con...')
+#3 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\con...', Array, true)
+#4 C:\wamp\www\yii\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\wamp\www\con...', Array, true)
+#5 C:\wamp\www\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#6 C:\wamp\www\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#7 C:\wamp\www\yii\framework\web\CBaseController.php(206): COutputProcessor->run()
+#8 C:\wamp\www\yii\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#9 C:\wamp\www\connecshion\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#10 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\wamp\www\con...')
+#11 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\con...', Array, true)
+#12 C:\wamp\www\yii\framework\web\CController.php(784): CBaseController->renderFile('C:\wamp\www\con...', Array, true)
+#13 C:\wamp\www\connecshion\protected\controllers\SiteController.php(32): CController->render('index')
+#14 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#15 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#17 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('')
+#19 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#20 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#21 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/connecshion/index.php
+HTTP_REFERER=http://localhost/connecshion/index.php
+---
+2013/04/06 18:16:14 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.Username" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\auth\CWebUser.php(140): CComponent->__get('Username')
+#1 C:\wamp\www\connecshion\protected\views\layouts\main.php(36): CWebUser->__get('Username')
+#2 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\wamp\www\con...')
+#3 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\con...', Array, true)
+#4 C:\wamp\www\yii\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\wamp\www\con...', Array, true)
+#5 C:\wamp\www\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#6 C:\wamp\www\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#7 C:\wamp\www\yii\framework\web\CBaseController.php(206): COutputProcessor->run()
+#8 C:\wamp\www\yii\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#9 C:\wamp\www\connecshion\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#10 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\wamp\www\con...')
+#11 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\con...', Array, true)
+#12 C:\wamp\www\yii\framework\web\CController.php(784): CBaseController->renderFile('C:\wamp\www\con...', Array, true)
+#13 C:\wamp\www\connecshion\protected\controllers\SiteController.php(32): CController->render('index')
+#14 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#15 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#17 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('')
+#19 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#20 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#21 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/connecshion/
+---
+2013/04/06 18:16:18 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.Username" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\auth\CWebUser.php(140): CComponent->__get('Username')
+#1 C:\wamp\www\connecshion\protected\views\layouts\main.php(36): CWebUser->__get('Username')
+#2 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\wamp\www\con...')
+#3 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\con...', Array, true)
+#4 C:\wamp\www\yii\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\wamp\www\con...', Array, true)
+#5 C:\wamp\www\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#6 C:\wamp\www\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#7 C:\wamp\www\yii\framework\web\CBaseController.php(206): COutputProcessor->run()
+#8 C:\wamp\www\yii\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#9 C:\wamp\www\connecshion\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#10 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\wamp\www\con...')
+#11 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\con...', Array, true)
+#12 C:\wamp\www\yii\framework\web\CController.php(784): CBaseController->renderFile('C:\wamp\www\con...', Array, true)
+#13 C:\wamp\www\connecshion\protected\controllers\SiteController.php(32): CController->render('index')
+#14 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#15 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#17 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('')
+#19 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#20 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#21 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/connecshion/
+---
+2013/04/06 18:16:20 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.Username" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\auth\CWebUser.php(140): CComponent->__get('Username')
+#1 C:\wamp\www\connecshion\protected\views\layouts\main.php(36): CWebUser->__get('Username')
+#2 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\wamp\www\con...')
+#3 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\con...', Array, true)
+#4 C:\wamp\www\yii\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\wamp\www\con...', Array, true)
+#5 C:\wamp\www\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#6 C:\wamp\www\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#7 C:\wamp\www\yii\framework\web\CBaseController.php(206): COutputProcessor->run()
+#8 C:\wamp\www\yii\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#9 C:\wamp\www\connecshion\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#10 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\wamp\www\con...')
+#11 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\con...', Array, true)
+#12 C:\wamp\www\yii\framework\web\CController.php(784): CBaseController->renderFile('C:\wamp\www\con...', Array, true)
+#13 C:\wamp\www\connecshion\protected\controllers\SiteController.php(32): CController->render('index')
+#14 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#15 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#17 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('')
+#19 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#20 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#21 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/connecshion/
+---
+2013/04/06 18:16:31 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.Username" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\auth\CWebUser.php(140): CComponent->__get('Username')
+#1 C:\wamp\www\connecshion\protected\views\layouts\main.php(36): CWebUser->__get('Username')
+#2 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\wamp\www\con...')
+#3 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\con...', Array, true)
+#4 C:\wamp\www\yii\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\wamp\www\con...', Array, true)
+#5 C:\wamp\www\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#6 C:\wamp\www\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#7 C:\wamp\www\yii\framework\web\CBaseController.php(206): COutputProcessor->run()
+#8 C:\wamp\www\yii\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#9 C:\wamp\www\connecshion\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#10 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\wamp\www\con...')
+#11 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\con...', Array, true)
+#12 C:\wamp\www\yii\framework\web\CController.php(784): CBaseController->renderFile('C:\wamp\www\con...', Array, true)
+#13 C:\wamp\www\connecshion\protected\controllers\SiteController.php(32): CController->render('index')
+#14 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#15 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#17 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('')
+#19 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#20 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#21 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/connecshion/
+---
+2013/04/06 18:16:33 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.Username" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\auth\CWebUser.php(140): CComponent->__get('Username')
+#1 C:\wamp\www\connecshion\protected\views\layouts\main.php(36): CWebUser->__get('Username')
+#2 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\wamp\www\con...')
+#3 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\con...', Array, true)
+#4 C:\wamp\www\yii\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\wamp\www\con...', Array, true)
+#5 C:\wamp\www\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#6 C:\wamp\www\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#7 C:\wamp\www\yii\framework\web\CBaseController.php(206): COutputProcessor->run()
+#8 C:\wamp\www\yii\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#9 C:\wamp\www\connecshion\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#10 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\wamp\www\con...')
+#11 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\con...', Array, true)
+#12 C:\wamp\www\yii\framework\web\CController.php(784): CBaseController->renderFile('C:\wamp\www\con...', Array, true)
+#13 C:\wamp\www\connecshion\protected\controllers\SiteController.php(32): CController->render('index')
+#14 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#15 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#17 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('')
+#19 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#20 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#21 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/connecshion/
+---
+2013/04/06 18:16:41 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.Username" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\auth\CWebUser.php(140): CComponent->__get('Username')
+#1 C:\wamp\www\connecshion\protected\views\layouts\main.php(36): CWebUser->__get('Username')
+#2 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\wamp\www\con...')
+#3 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\con...', Array, true)
+#4 C:\wamp\www\yii\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\wamp\www\con...', Array, true)
+#5 C:\wamp\www\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#6 C:\wamp\www\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#7 C:\wamp\www\yii\framework\web\CBaseController.php(206): COutputProcessor->run()
+#8 C:\wamp\www\yii\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#9 C:\wamp\www\connecshion\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#10 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\wamp\www\con...')
+#11 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\con...', Array, true)
+#12 C:\wamp\www\yii\framework\web\CController.php(784): CBaseController->renderFile('C:\wamp\www\con...', Array, true)
+#13 C:\wamp\www\connecshion\protected\controllers\SiteController.php(121): CController->render('create', Array)
+#14 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionRegister()
+#15 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#17 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('Register')
+#19 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/Register')
+#20 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#21 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/connecshion/site/Register/
+---
+2013/04/06 18:17:08 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.username" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\auth\CWebUser.php(140): CComponent->__get('username')
+#1 C:\wamp\www\connecshion\protected\views\layouts\main.php(36): CWebUser->__get('username')
+#2 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\wamp\www\con...')
+#3 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\con...', Array, true)
+#4 C:\wamp\www\yii\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\wamp\www\con...', Array, true)
+#5 C:\wamp\www\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#6 C:\wamp\www\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#7 C:\wamp\www\yii\framework\web\CBaseController.php(206): COutputProcessor->run()
+#8 C:\wamp\www\yii\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#9 C:\wamp\www\connecshion\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#10 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\wamp\www\con...')
+#11 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\con...', Array, true)
+#12 C:\wamp\www\yii\framework\web\CController.php(784): CBaseController->renderFile('C:\wamp\www\con...', Array, true)
+#13 C:\wamp\www\connecshion\protected\controllers\SiteController.php(121): CController->render('create', Array)
+#14 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionRegister()
+#15 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#17 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('Register')
+#19 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/Register')
+#20 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#21 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/connecshion/site/Register/
+---
+2013/04/06 18:17:11 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.username" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\auth\CWebUser.php(140): CComponent->__get('username')
+#1 C:\wamp\www\connecshion\protected\views\layouts\main.php(36): CWebUser->__get('username')
+#2 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\wamp\www\con...')
+#3 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\con...', Array, true)
+#4 C:\wamp\www\yii\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\wamp\www\con...', Array, true)
+#5 C:\wamp\www\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#6 C:\wamp\www\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#7 C:\wamp\www\yii\framework\web\CBaseController.php(206): COutputProcessor->run()
+#8 C:\wamp\www\yii\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#9 C:\wamp\www\connecshion\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#10 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\wamp\www\con...')
+#11 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\con...', Array, true)
+#12 C:\wamp\www\yii\framework\web\CController.php(784): CBaseController->renderFile('C:\wamp\www\con...', Array, true)
+#13 C:\wamp\www\connecshion\protected\controllers\SiteController.php(121): CController->render('create', Array)
+#14 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionRegister()
+#15 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#17 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('Register')
+#19 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/Register')
+#20 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#21 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/connecshion/site/Register/
+---
+2013/04/06 18:17:16 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.Username" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\auth\CWebUser.php(140): CComponent->__get('Username')
+#1 C:\wamp\www\connecshion\protected\views\layouts\main.php(36): CWebUser->__get('Username')
+#2 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\wamp\www\con...')
+#3 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\con...', Array, true)
+#4 C:\wamp\www\yii\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\wamp\www\con...', Array, true)
+#5 C:\wamp\www\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#6 C:\wamp\www\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#7 C:\wamp\www\yii\framework\web\CBaseController.php(206): COutputProcessor->run()
+#8 C:\wamp\www\yii\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#9 C:\wamp\www\connecshion\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#10 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\wamp\www\con...')
+#11 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\con...', Array, true)
+#12 C:\wamp\www\yii\framework\web\CController.php(784): CBaseController->renderFile('C:\wamp\www\con...', Array, true)
+#13 C:\wamp\www\connecshion\protected\controllers\SiteController.php(121): CController->render('create', Array)
+#14 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionRegister()
+#15 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#17 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('Register')
+#19 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/Register')
+#20 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#21 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/connecshion/site/Register/
+---
+2013/04/06 18:17:16 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.Username" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\auth\CWebUser.php(140): CComponent->__get('Username')
+#1 C:\wamp\www\connecshion\protected\views\layouts\main.php(36): CWebUser->__get('Username')
+#2 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\wamp\www\con...')
+#3 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\con...', Array, true)
+#4 C:\wamp\www\yii\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\wamp\www\con...', Array, true)
+#5 C:\wamp\www\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#6 C:\wamp\www\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#7 C:\wamp\www\yii\framework\web\CBaseController.php(206): COutputProcessor->run()
+#8 C:\wamp\www\yii\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#9 C:\wamp\www\connecshion\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#10 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\wamp\www\con...')
+#11 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\con...', Array, true)
+#12 C:\wamp\www\yii\framework\web\CController.php(784): CBaseController->renderFile('C:\wamp\www\con...', Array, true)
+#13 C:\wamp\www\connecshion\protected\controllers\SiteController.php(121): CController->render('create', Array)
+#14 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionRegister()
+#15 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#17 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('Register')
+#19 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/Register')
+#20 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#21 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/connecshion/site/Register/
+---
+2013/04/06 18:17:29 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.username" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\auth\CWebUser.php(140): CComponent->__get('username')
+#1 C:\wamp\www\connecshion\protected\views\layouts\main.php(36): CWebUser->__get('username')
+#2 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\wamp\www\con...')
+#3 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\con...', Array, true)
+#4 C:\wamp\www\yii\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\wamp\www\con...', Array, true)
+#5 C:\wamp\www\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#6 C:\wamp\www\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#7 C:\wamp\www\yii\framework\web\CBaseController.php(206): COutputProcessor->run()
+#8 C:\wamp\www\yii\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#9 C:\wamp\www\connecshion\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#10 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\wamp\www\con...')
+#11 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\con...', Array, true)
+#12 C:\wamp\www\yii\framework\web\CController.php(784): CBaseController->renderFile('C:\wamp\www\con...', Array, true)
+#13 C:\wamp\www\connecshion\protected\controllers\SiteController.php(121): CController->render('create', Array)
+#14 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionRegister()
+#15 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#17 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('Register')
+#19 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/Register')
+#20 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#21 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/connecshion/site/Register/
+---
+2013/04/06 18:17:30 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.username" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\auth\CWebUser.php(140): CComponent->__get('username')
+#1 C:\wamp\www\connecshion\protected\views\layouts\main.php(36): CWebUser->__get('username')
+#2 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\wamp\www\con...')
+#3 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\con...', Array, true)
+#4 C:\wamp\www\yii\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\wamp\www\con...', Array, true)
+#5 C:\wamp\www\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#6 C:\wamp\www\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#7 C:\wamp\www\yii\framework\web\CBaseController.php(206): COutputProcessor->run()
+#8 C:\wamp\www\yii\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#9 C:\wamp\www\connecshion\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#10 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\wamp\www\con...')
+#11 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\con...', Array, true)
+#12 C:\wamp\www\yii\framework\web\CController.php(784): CBaseController->renderFile('C:\wamp\www\con...', Array, true)
+#13 C:\wamp\www\connecshion\protected\controllers\SiteController.php(121): CController->render('create', Array)
+#14 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionRegister()
+#15 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#17 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('Register')
+#19 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/Register')
+#20 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#21 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/connecshion/site/Register/
+---
+2013/04/06 18:17:31 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.username" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\auth\CWebUser.php(140): CComponent->__get('username')
+#1 C:\wamp\www\connecshion\protected\views\layouts\main.php(36): CWebUser->__get('username')
+#2 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\wamp\www\con...')
+#3 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\con...', Array, true)
+#4 C:\wamp\www\yii\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\wamp\www\con...', Array, true)
+#5 C:\wamp\www\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#6 C:\wamp\www\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#7 C:\wamp\www\yii\framework\web\CBaseController.php(206): COutputProcessor->run()
+#8 C:\wamp\www\yii\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#9 C:\wamp\www\connecshion\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#10 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\wamp\www\con...')
+#11 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\con...', Array, true)
+#12 C:\wamp\www\yii\framework\web\CController.php(784): CBaseController->renderFile('C:\wamp\www\con...', Array, true)
+#13 C:\wamp\www\connecshion\protected\controllers\SiteController.php(121): CController->render('create', Array)
+#14 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionRegister()
+#15 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#17 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('Register')
+#19 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/Register')
+#20 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#21 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/connecshion/site/Register/
+---
+2013/04/06 18:17:32 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.username" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\auth\CWebUser.php(140): CComponent->__get('username')
+#1 C:\wamp\www\connecshion\protected\views\layouts\main.php(36): CWebUser->__get('username')
+#2 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\wamp\www\con...')
+#3 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\con...', Array, true)
+#4 C:\wamp\www\yii\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\wamp\www\con...', Array, true)
+#5 C:\wamp\www\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#6 C:\wamp\www\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#7 C:\wamp\www\yii\framework\web\CBaseController.php(206): COutputProcessor->run()
+#8 C:\wamp\www\yii\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#9 C:\wamp\www\connecshion\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#10 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\wamp\www\con...')
+#11 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\con...', Array, true)
+#12 C:\wamp\www\yii\framework\web\CController.php(784): CBaseController->renderFile('C:\wamp\www\con...', Array, true)
+#13 C:\wamp\www\connecshion\protected\controllers\SiteController.php(121): CController->render('create', Array)
+#14 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionRegister()
+#15 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#17 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('Register')
+#19 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/Register')
+#20 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#21 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/connecshion/site/Register/
+---
+2013/04/06 18:17:52 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.username" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\auth\CWebUser.php(140): CComponent->__get('username')
+#1 C:\wamp\www\connecshion\protected\views\layouts\main.php(36): CWebUser->__get('username')
+#2 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\wamp\www\con...')
+#3 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\con...', Array, true)
+#4 C:\wamp\www\yii\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\wamp\www\con...', Array, true)
+#5 C:\wamp\www\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#6 C:\wamp\www\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#7 C:\wamp\www\yii\framework\web\CBaseController.php(206): COutputProcessor->run()
+#8 C:\wamp\www\yii\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#9 C:\wamp\www\connecshion\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#10 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\wamp\www\con...')
+#11 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\con...', Array, true)
+#12 C:\wamp\www\yii\framework\web\CController.php(784): CBaseController->renderFile('C:\wamp\www\con...', Array, true)
+#13 C:\wamp\www\connecshion\protected\controllers\SiteController.php(121): CController->render('create', Array)
+#14 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionRegister()
+#15 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#17 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('Register')
+#19 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/Register')
+#20 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#21 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/connecshion/site/Register/
+---
+2013/04/06 18:19:01 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.username" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\auth\CWebUser.php(140): CComponent->__get('username')
+#1 C:\wamp\www\connecshion\protected\views\layouts\main.php(36): CWebUser->__get('username')
+#2 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\wamp\www\con...')
+#3 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\con...', Array, true)
+#4 C:\wamp\www\yii\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\wamp\www\con...', Array, true)
+#5 C:\wamp\www\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#6 C:\wamp\www\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#7 C:\wamp\www\yii\framework\web\CBaseController.php(206): COutputProcessor->run()
+#8 C:\wamp\www\yii\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#9 C:\wamp\www\connecshion\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#10 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\wamp\www\con...')
+#11 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\con...', Array, true)
+#12 C:\wamp\www\yii\framework\web\CController.php(784): CBaseController->renderFile('C:\wamp\www\con...', Array, true)
+#13 C:\wamp\www\connecshion\protected\controllers\SiteController.php(121): CController->render('create', Array)
+#14 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionRegister()
+#15 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#17 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('Register')
+#19 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/Register')
+#20 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#21 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/connecshion/site/Register/
+---
+2013/04/06 18:19:14 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.Username" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\auth\CWebUser.php(140): CComponent->__get('Username')
+#1 C:\wamp\www\connecshion\protected\views\layouts\main.php(36): CWebUser->__get('Username')
+#2 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\wamp\www\con...')
+#3 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\con...', Array, true)
+#4 C:\wamp\www\yii\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\wamp\www\con...', Array, true)
+#5 C:\wamp\www\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#6 C:\wamp\www\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#7 C:\wamp\www\yii\framework\web\CBaseController.php(206): COutputProcessor->run()
+#8 C:\wamp\www\yii\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#9 C:\wamp\www\connecshion\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#10 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\wamp\www\con...')
+#11 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\con...', Array, true)
+#12 C:\wamp\www\yii\framework\web\CController.php(784): CBaseController->renderFile('C:\wamp\www\con...', Array, true)
+#13 C:\wamp\www\connecshion\protected\controllers\SiteController.php(121): CController->render('create', Array)
+#14 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionRegister()
+#15 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#17 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('Register')
+#19 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/Register')
+#20 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#21 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/connecshion/site/Register/
+---
+2013/04/06 18:19:47 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.Username" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\auth\CWebUser.php(140): CComponent->__get('Username')
+#1 C:\wamp\www\connecshion\protected\views\layouts\main.php(36): CWebUser->__get('Username')
+#2 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\wamp\www\con...')
+#3 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\con...', Array, true)
+#4 C:\wamp\www\yii\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\wamp\www\con...', Array, true)
+#5 C:\wamp\www\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#6 C:\wamp\www\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#7 C:\wamp\www\yii\framework\web\CBaseController.php(206): COutputProcessor->run()
+#8 C:\wamp\www\yii\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#9 C:\wamp\www\connecshion\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#10 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\wamp\www\con...')
+#11 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\con...', Array, true)
+#12 C:\wamp\www\yii\framework\web\CController.php(784): CBaseController->renderFile('C:\wamp\www\con...', Array, true)
+#13 C:\wamp\www\connecshion\protected\controllers\SiteController.php(32): CController->render('index')
+#14 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#15 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#17 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('')
+#19 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#20 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#21 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/connecshion/index.php
+HTTP_REFERER=http://localhost/connecshion/index.php/site/login
+---
+2013/04/06 18:19:51 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.Username" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\auth\CWebUser.php(140): CComponent->__get('Username')
+#1 C:\wamp\www\connecshion\protected\views\layouts\main.php(36): CWebUser->__get('Username')
+#2 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\wamp\www\con...')
+#3 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\con...', Array, true)
+#4 C:\wamp\www\yii\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\wamp\www\con...', Array, true)
+#5 C:\wamp\www\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#6 C:\wamp\www\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#7 C:\wamp\www\yii\framework\web\CBaseController.php(206): COutputProcessor->run()
+#8 C:\wamp\www\yii\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#9 C:\wamp\www\connecshion\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#10 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\wamp\www\con...')
+#11 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\con...', Array, true)
+#12 C:\wamp\www\yii\framework\web\CController.php(784): CBaseController->renderFile('C:\wamp\www\con...', Array, true)
+#13 C:\wamp\www\connecshion\protected\controllers\SiteController.php(32): CController->render('index')
+#14 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#15 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#17 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('')
+#19 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#20 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#21 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/connecshion/index.php
+HTTP_REFERER=http://localhost/connecshion/index.php/site/login
+---
+2013/04/06 18:19:54 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.Username" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\auth\CWebUser.php(140): CComponent->__get('Username')
+#1 C:\wamp\www\connecshion\protected\views\layouts\main.php(36): CWebUser->__get('Username')
+#2 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\wamp\www\con...')
+#3 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\con...', Array, true)
+#4 C:\wamp\www\yii\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\wamp\www\con...', Array, true)
+#5 C:\wamp\www\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#6 C:\wamp\www\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#7 C:\wamp\www\yii\framework\web\CBaseController.php(206): COutputProcessor->run()
+#8 C:\wamp\www\yii\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#9 C:\wamp\www\connecshion\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#10 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\wamp\www\con...')
+#11 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\con...', Array, true)
+#12 C:\wamp\www\yii\framework\web\CController.php(784): CBaseController->renderFile('C:\wamp\www\con...', Array, true)
+#13 C:\wamp\www\connecshion\protected\controllers\SiteController.php(32): CController->render('index')
+#14 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#15 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#17 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('')
+#19 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#20 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#21 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/connecshion/index.php
+HTTP_REFERER=http://localhost/connecshion/index.php/site/login
+---
+2013/04/06 18:20:05 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.username" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\auth\CWebUser.php(140): CComponent->__get('username')
+#1 C:\wamp\www\connecshion\protected\views\layouts\main.php(36): CWebUser->__get('username')
+#2 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\wamp\www\con...')
+#3 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\con...', Array, true)
+#4 C:\wamp\www\yii\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\wamp\www\con...', Array, true)
+#5 C:\wamp\www\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#6 C:\wamp\www\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#7 C:\wamp\www\yii\framework\web\CBaseController.php(206): COutputProcessor->run()
+#8 C:\wamp\www\yii\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#9 C:\wamp\www\connecshion\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#10 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\wamp\www\con...')
+#11 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\con...', Array, true)
+#12 C:\wamp\www\yii\framework\web\CController.php(784): CBaseController->renderFile('C:\wamp\www\con...', Array, true)
+#13 C:\wamp\www\connecshion\protected\controllers\SiteController.php(32): CController->render('index')
+#14 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#15 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#17 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('')
+#19 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#20 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#21 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/connecshion/index.php
+HTTP_REFERER=http://localhost/connecshion/index.php/site/login
+---
+2013/04/06 19:43:59 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.username" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\auth\CWebUser.php(140): CComponent->__get('username')
+#1 C:\wamp\www\connecshion\protected\views\layouts\main.php(36): CWebUser->__get('username')
+#2 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\wamp\www\con...')
+#3 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\con...', Array, true)
+#4 C:\wamp\www\yii\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\wamp\www\con...', Array, true)
+#5 C:\wamp\www\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#6 C:\wamp\www\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#7 C:\wamp\www\yii\framework\web\CBaseController.php(206): COutputProcessor->run()
+#8 C:\wamp\www\yii\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#9 C:\wamp\www\connecshion\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#10 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\wamp\www\con...')
+#11 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\con...', Array, true)
+#12 C:\wamp\www\yii\framework\web\CController.php(784): CBaseController->renderFile('C:\wamp\www\con...', Array, true)
+#13 C:\wamp\www\connecshion\protected\controllers\SiteController.php(32): CController->render('index')
+#14 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#15 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#17 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('')
+#19 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#20 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#21 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/connecshion/index.php
+HTTP_REFERER=http://localhost/connecshion/index.php/site/login
+---
+2013/04/06 19:44:12 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.username" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\auth\CWebUser.php(140): CComponent->__get('username')
+#1 C:\wamp\www\connecshion\protected\views\layouts\main.php(36): CWebUser->__get('username')
+#2 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\wamp\www\con...')
+#3 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\con...', Array, true)
+#4 C:\wamp\www\yii\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\wamp\www\con...', Array, true)
+#5 C:\wamp\www\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#6 C:\wamp\www\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#7 C:\wamp\www\yii\framework\web\CBaseController.php(206): COutputProcessor->run()
+#8 C:\wamp\www\yii\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#9 C:\wamp\www\connecshion\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#10 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\wamp\www\con...')
+#11 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\con...', Array, true)
+#12 C:\wamp\www\yii\framework\web\CController.php(784): CBaseController->renderFile('C:\wamp\www\con...', Array, true)
+#13 C:\wamp\www\connecshion\protected\controllers\SiteController.php(32): CController->render('index')
+#14 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#15 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#17 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('')
+#19 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#20 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#21 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/connecshion/index.php
+HTTP_REFERER=http://localhost/connecshion/index.php/site/login
+---
+2013/04/06 19:44:26 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.Username" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\auth\CWebUser.php(140): CComponent->__get('Username')
+#1 C:\wamp\www\connecshion\protected\views\layouts\main.php(36): CWebUser->__get('Username')
+#2 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\wamp\www\con...')
+#3 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\con...', Array, true)
+#4 C:\wamp\www\yii\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\wamp\www\con...', Array, true)
+#5 C:\wamp\www\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#6 C:\wamp\www\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#7 C:\wamp\www\yii\framework\web\CBaseController.php(206): COutputProcessor->run()
+#8 C:\wamp\www\yii\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#9 C:\wamp\www\connecshion\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#10 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\wamp\www\con...')
+#11 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\con...', Array, true)
+#12 C:\wamp\www\yii\framework\web\CController.php(784): CBaseController->renderFile('C:\wamp\www\con...', Array, true)
+#13 C:\wamp\www\connecshion\protected\controllers\SiteController.php(32): CController->render('index')
+#14 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#15 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#17 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('')
+#19 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#20 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#21 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/connecshion/index.php
+HTTP_REFERER=http://localhost/connecshion/index.php/site/login
+---
+2013/04/06 19:44:27 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.Username" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\auth\CWebUser.php(140): CComponent->__get('Username')
+#1 C:\wamp\www\connecshion\protected\views\layouts\main.php(36): CWebUser->__get('Username')
+#2 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\wamp\www\con...')
+#3 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\con...', Array, true)
+#4 C:\wamp\www\yii\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\wamp\www\con...', Array, true)
+#5 C:\wamp\www\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#6 C:\wamp\www\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#7 C:\wamp\www\yii\framework\web\CBaseController.php(206): COutputProcessor->run()
+#8 C:\wamp\www\yii\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#9 C:\wamp\www\connecshion\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#10 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\wamp\www\con...')
+#11 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\con...', Array, true)
+#12 C:\wamp\www\yii\framework\web\CController.php(784): CBaseController->renderFile('C:\wamp\www\con...', Array, true)
+#13 C:\wamp\www\connecshion\protected\controllers\SiteController.php(32): CController->render('index')
+#14 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#15 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#17 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('')
+#19 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#20 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#21 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/connecshion/index.php
+HTTP_REFERER=http://localhost/connecshion/index.php/site/login
+---
+2013/04/06 19:44:28 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.Username" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\auth\CWebUser.php(140): CComponent->__get('Username')
+#1 C:\wamp\www\connecshion\protected\views\layouts\main.php(36): CWebUser->__get('Username')
+#2 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\wamp\www\con...')
+#3 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\con...', Array, true)
+#4 C:\wamp\www\yii\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\wamp\www\con...', Array, true)
+#5 C:\wamp\www\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#6 C:\wamp\www\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#7 C:\wamp\www\yii\framework\web\CBaseController.php(206): COutputProcessor->run()
+#8 C:\wamp\www\yii\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#9 C:\wamp\www\connecshion\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#10 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\wamp\www\con...')
+#11 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\con...', Array, true)
+#12 C:\wamp\www\yii\framework\web\CController.php(784): CBaseController->renderFile('C:\wamp\www\con...', Array, true)
+#13 C:\wamp\www\connecshion\protected\controllers\SiteController.php(32): CController->render('index')
+#14 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#15 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#17 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('')
+#19 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#20 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#21 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/connecshion/index.php
+HTTP_REFERER=http://localhost/connecshion/index.php/site/login
+---
+2013/04/06 19:44:38 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.Username" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\auth\CWebUser.php(140): CComponent->__get('Username')
+#1 C:\wamp\www\connecshion\protected\views\layouts\main.php(36): CWebUser->__get('Username')
+#2 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\wamp\www\con...')
+#3 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\con...', Array, true)
+#4 C:\wamp\www\yii\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\wamp\www\con...', Array, true)
+#5 C:\wamp\www\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#6 C:\wamp\www\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#7 C:\wamp\www\yii\framework\web\CBaseController.php(206): COutputProcessor->run()
+#8 C:\wamp\www\yii\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#9 C:\wamp\www\connecshion\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#10 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\wamp\www\con...')
+#11 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\con...', Array, true)
+#12 C:\wamp\www\yii\framework\web\CController.php(784): CBaseController->renderFile('C:\wamp\www\con...', Array, true)
+#13 C:\wamp\www\connecshion\protected\controllers\SiteController.php(32): CController->render('index')
+#14 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#15 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#17 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('')
+#19 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#20 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#21 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/connecshion/index.php
+HTTP_REFERER=http://localhost/connecshion/index.php/site/login
+---
+2013/04/06 19:44:39 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.Username" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\auth\CWebUser.php(140): CComponent->__get('Username')
+#1 C:\wamp\www\connecshion\protected\views\layouts\main.php(36): CWebUser->__get('Username')
+#2 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\wamp\www\con...')
+#3 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\con...', Array, true)
+#4 C:\wamp\www\yii\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\wamp\www\con...', Array, true)
+#5 C:\wamp\www\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#6 C:\wamp\www\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#7 C:\wamp\www\yii\framework\web\CBaseController.php(206): COutputProcessor->run()
+#8 C:\wamp\www\yii\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#9 C:\wamp\www\connecshion\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#10 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\wamp\www\con...')
+#11 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\con...', Array, true)
+#12 C:\wamp\www\yii\framework\web\CController.php(784): CBaseController->renderFile('C:\wamp\www\con...', Array, true)
+#13 C:\wamp\www\connecshion\protected\controllers\SiteController.php(32): CController->render('index')
+#14 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#15 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#17 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('')
+#19 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#20 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#21 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/connecshion/index.php
+HTTP_REFERER=http://localhost/connecshion/index.php/site/login
+---
+2013/04/06 19:44:40 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.Username" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\auth\CWebUser.php(140): CComponent->__get('Username')
+#1 C:\wamp\www\connecshion\protected\views\layouts\main.php(36): CWebUser->__get('Username')
+#2 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\wamp\www\con...')
+#3 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\con...', Array, true)
+#4 C:\wamp\www\yii\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\wamp\www\con...', Array, true)
+#5 C:\wamp\www\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#6 C:\wamp\www\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#7 C:\wamp\www\yii\framework\web\CBaseController.php(206): COutputProcessor->run()
+#8 C:\wamp\www\yii\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#9 C:\wamp\www\connecshion\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#10 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\wamp\www\con...')
+#11 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\con...', Array, true)
+#12 C:\wamp\www\yii\framework\web\CController.php(784): CBaseController->renderFile('C:\wamp\www\con...', Array, true)
+#13 C:\wamp\www\connecshion\protected\controllers\SiteController.php(32): CController->render('index')
+#14 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#15 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#17 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('')
+#19 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#20 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#21 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/connecshion/index.php
+HTTP_REFERER=http://localhost/connecshion/index.php/site/login
+---
+2013/04/06 19:44:51 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.username" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\auth\CWebUser.php(140): CComponent->__get('username')
+#1 C:\wamp\www\connecshion\protected\views\layouts\main.php(36): CWebUser->__get('username')
+#2 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\wamp\www\con...')
+#3 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\con...', Array, true)
+#4 C:\wamp\www\yii\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\wamp\www\con...', Array, true)
+#5 C:\wamp\www\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#6 C:\wamp\www\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#7 C:\wamp\www\yii\framework\web\CBaseController.php(206): COutputProcessor->run()
+#8 C:\wamp\www\yii\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#9 C:\wamp\www\connecshion\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#10 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\wamp\www\con...')
+#11 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\con...', Array, true)
+#12 C:\wamp\www\yii\framework\web\CController.php(784): CBaseController->renderFile('C:\wamp\www\con...', Array, true)
+#13 C:\wamp\www\connecshion\protected\controllers\SiteController.php(32): CController->render('index')
+#14 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#15 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#17 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('')
+#19 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#20 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#21 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/connecshion/index.php
+HTTP_REFERER=http://localhost/connecshion/index.php/site/login
+---
+2013/04/06 19:44:52 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.username" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\auth\CWebUser.php(140): CComponent->__get('username')
+#1 C:\wamp\www\connecshion\protected\views\layouts\main.php(36): CWebUser->__get('username')
+#2 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\wamp\www\con...')
+#3 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\con...', Array, true)
+#4 C:\wamp\www\yii\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\wamp\www\con...', Array, true)
+#5 C:\wamp\www\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#6 C:\wamp\www\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#7 C:\wamp\www\yii\framework\web\CBaseController.php(206): COutputProcessor->run()
+#8 C:\wamp\www\yii\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#9 C:\wamp\www\connecshion\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#10 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\wamp\www\con...')
+#11 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\con...', Array, true)
+#12 C:\wamp\www\yii\framework\web\CController.php(784): CBaseController->renderFile('C:\wamp\www\con...', Array, true)
+#13 C:\wamp\www\connecshion\protected\controllers\SiteController.php(32): CController->render('index')
+#14 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#15 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#17 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('')
+#19 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#20 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#21 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/connecshion/index.php
+HTTP_REFERER=http://localhost/connecshion/index.php/site/login
+---
+2013/04/06 19:45:48 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.Username" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\auth\CWebUser.php(140): CComponent->__get('Username')
+#1 C:\wamp\www\connecshion\protected\views\layouts\main.php(36): CWebUser->__get('Username')
+#2 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\wamp\www\con...')
+#3 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\con...', Array, true)
+#4 C:\wamp\www\yii\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\wamp\www\con...', Array, true)
+#5 C:\wamp\www\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#6 C:\wamp\www\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#7 C:\wamp\www\yii\framework\web\CBaseController.php(206): COutputProcessor->run()
+#8 C:\wamp\www\yii\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#9 C:\wamp\www\connecshion\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#10 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\wamp\www\con...')
+#11 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\con...', Array, true)
+#12 C:\wamp\www\yii\framework\web\CController.php(784): CBaseController->renderFile('C:\wamp\www\con...', Array, true)
+#13 C:\wamp\www\connecshion\protected\controllers\SiteController.php(32): CController->render('index')
+#14 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#15 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#17 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('')
+#19 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#20 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#21 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/connecshion/index.php
+HTTP_REFERER=http://localhost/connecshion/index.php/site/login
+---
+2013/04/06 19:46:20 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.Username" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\auth\CWebUser.php(140): CComponent->__get('Username')
+#1 C:\wamp\www\connecshion\protected\views\layouts\main.php(36): CWebUser->__get('Username')
+#2 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\wamp\www\con...')
+#3 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\con...', Array, true)
+#4 C:\wamp\www\yii\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\wamp\www\con...', Array, true)
+#5 C:\wamp\www\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#6 C:\wamp\www\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#7 C:\wamp\www\yii\framework\web\CBaseController.php(206): COutputProcessor->run()
+#8 C:\wamp\www\yii\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#9 C:\wamp\www\connecshion\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#10 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\wamp\www\con...')
+#11 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\con...', Array, true)
+#12 C:\wamp\www\yii\framework\web\CController.php(784): CBaseController->renderFile('C:\wamp\www\con...', Array, true)
+#13 C:\wamp\www\connecshion\protected\controllers\SiteController.php(32): CController->render('index')
+#14 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#15 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#17 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('')
+#19 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#20 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#21 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/connecshion/index.php
+HTTP_REFERER=http://localhost/connecshion/index.php/site/login
+---
+2013/04/06 19:47:06 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.Username" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\auth\CWebUser.php(140): CComponent->__get('Username')
+#1 C:\wamp\www\connecshion\protected\views\layouts\main.php(36): CWebUser->__get('Username')
+#2 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\wamp\www\con...')
+#3 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\con...', Array, true)
+#4 C:\wamp\www\yii\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\wamp\www\con...', Array, true)
+#5 C:\wamp\www\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#6 C:\wamp\www\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#7 C:\wamp\www\yii\framework\web\CBaseController.php(206): COutputProcessor->run()
+#8 C:\wamp\www\yii\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#9 C:\wamp\www\connecshion\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#10 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\wamp\www\con...')
+#11 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\con...', Array, true)
+#12 C:\wamp\www\yii\framework\web\CController.php(784): CBaseController->renderFile('C:\wamp\www\con...', Array, true)
+#13 C:\wamp\www\connecshion\protected\controllers\SiteController.php(32): CController->render('index')
+#14 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#15 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#17 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('')
+#19 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#20 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#21 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/connecshion/index.php
+HTTP_REFERER=http://localhost/connecshion/index.php
+---
+2013/04/06 19:48:26 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.Username" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\auth\CWebUser.php(140): CComponent->__get('Username')
+#1 C:\wamp\www\connecshion\protected\views\layouts\main.php(36): CWebUser->__get('Username')
+#2 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\wamp\www\con...')
+#3 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\con...', Array, true)
+#4 C:\wamp\www\yii\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\wamp\www\con...', Array, true)
+#5 C:\wamp\www\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#6 C:\wamp\www\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#7 C:\wamp\www\yii\framework\web\CBaseController.php(206): COutputProcessor->run()
+#8 C:\wamp\www\yii\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#9 C:\wamp\www\connecshion\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#10 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\wamp\www\con...')
+#11 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\con...', Array, true)
+#12 C:\wamp\www\yii\framework\web\CController.php(784): CBaseController->renderFile('C:\wamp\www\con...', Array, true)
+#13 C:\wamp\www\connecshion\protected\controllers\SiteController.php(32): CController->render('index')
+#14 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#15 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#17 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('')
+#19 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#20 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#21 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/connecshion/index.php
+HTTP_REFERER=http://localhost/connecshion/index.php
+---
+2013/04/06 19:48:51 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.Username" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\auth\CWebUser.php(140): CComponent->__get('Username')
+#1 C:\wamp\www\connecshion\protected\views\layouts\main.php(36): CWebUser->__get('Username')
+#2 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\wamp\www\con...')
+#3 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\con...', Array, true)
+#4 C:\wamp\www\yii\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\wamp\www\con...', Array, true)
+#5 C:\wamp\www\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#6 C:\wamp\www\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#7 C:\wamp\www\yii\framework\web\CBaseController.php(206): COutputProcessor->run()
+#8 C:\wamp\www\yii\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#9 C:\wamp\www\connecshion\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#10 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\wamp\www\con...')
+#11 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\con...', Array, true)
+#12 C:\wamp\www\yii\framework\web\CController.php(784): CBaseController->renderFile('C:\wamp\www\con...', Array, true)
+#13 C:\wamp\www\connecshion\protected\controllers\SiteController.php(32): CController->render('index')
+#14 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#15 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#17 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('')
+#19 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#20 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#21 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/connecshion/index.php
+HTTP_REFERER=http://localhost/connecshion/index.php
+---
+2013/04/06 19:48:52 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.Username" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\auth\CWebUser.php(140): CComponent->__get('Username')
+#1 C:\wamp\www\connecshion\protected\views\layouts\main.php(36): CWebUser->__get('Username')
+#2 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\wamp\www\con...')
+#3 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\con...', Array, true)
+#4 C:\wamp\www\yii\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\wamp\www\con...', Array, true)
+#5 C:\wamp\www\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#6 C:\wamp\www\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#7 C:\wamp\www\yii\framework\web\CBaseController.php(206): COutputProcessor->run()
+#8 C:\wamp\www\yii\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#9 C:\wamp\www\connecshion\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#10 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\wamp\www\con...')
+#11 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\con...', Array, true)
+#12 C:\wamp\www\yii\framework\web\CController.php(784): CBaseController->renderFile('C:\wamp\www\con...', Array, true)
+#13 C:\wamp\www\connecshion\protected\controllers\SiteController.php(32): CController->render('index')
+#14 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#15 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#17 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('')
+#19 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#20 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#21 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/connecshion/index.php
+HTTP_REFERER=http://localhost/connecshion/index.php
+---
+2013/04/06 19:48:53 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.Username" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\auth\CWebUser.php(140): CComponent->__get('Username')
+#1 C:\wamp\www\connecshion\protected\views\layouts\main.php(36): CWebUser->__get('Username')
+#2 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\wamp\www\con...')
+#3 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\con...', Array, true)
+#4 C:\wamp\www\yii\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\wamp\www\con...', Array, true)
+#5 C:\wamp\www\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#6 C:\wamp\www\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#7 C:\wamp\www\yii\framework\web\CBaseController.php(206): COutputProcessor->run()
+#8 C:\wamp\www\yii\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#9 C:\wamp\www\connecshion\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#10 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\wamp\www\con...')
+#11 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\con...', Array, true)
+#12 C:\wamp\www\yii\framework\web\CController.php(784): CBaseController->renderFile('C:\wamp\www\con...', Array, true)
+#13 C:\wamp\www\connecshion\protected\controllers\SiteController.php(32): CController->render('index')
+#14 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#15 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#17 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('')
+#19 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#20 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#21 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/connecshion/index.php
+HTTP_REFERER=http://localhost/connecshion/index.php
+---
+2013/04/06 20:25:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "ConfirmEmail".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('ConfirmEmail')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('ConfirmEmail')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Profile/Confirm...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/connecshion/Profile/ConfirmEmail?guid=516064dbb1a80
+---
+2013/04/06 20:26:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'invalid request' in C:\wamp\www\connecshion\protected\controllers\ProfileController.php:14
+Stack trace:
+#0 [internal function]: ProfileController->actionConfirmEmail('516064dbb1a8d')
+#1 C:\wamp\www\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(ProfileController), Array)
+#2 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProfileController), Object(ReflectionMethod), Array)
+#3 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('ConfirmEmail')
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Profile/Confirm...')
+#8 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/connecshion/Profile/ConfirmEmail?guid=516064dbb1a8d
+---
+2013/04/06 20:26:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'invalid request' in C:\wamp\www\connecshion\protected\controllers\ProfileController.php:14
+Stack trace:
+#0 [internal function]: ProfileController->actionConfirmEmail('516064dbb1a80')
+#1 C:\wamp\www\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(ProfileController), Array)
+#2 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProfileController), Object(ReflectionMethod), Array)
+#3 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('ConfirmEmail')
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Profile/Confirm...')
+#8 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/connecshion/Profile/ConfirmEmail?guid=516064dbb1a80
+---
+2013/04/06 20:26:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'invalid request' in C:\wamp\www\connecshion\protected\controllers\ProfileController.php:14
+Stack trace:
+#0 [internal function]: ProfileController->actionConfirmEmail('516064dbb1a8d')
+#1 C:\wamp\www\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(ProfileController), Array)
+#2 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProfileController), Object(ReflectionMethod), Array)
+#3 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('ConfirmEmail')
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Profile/Confirm...')
+#8 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/connecshion/Profile/ConfirmEmail?guid=516064dbb1a8d
+---
+2013/04/06 20:27:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'invalid request' in C:\wamp\www\connecshion\protected\controllers\ProfileController.php:14
+Stack trace:
+#0 [internal function]: ProfileController->actionConfirmEmail('516064dbb1a8d')
+#1 C:\wamp\www\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(ProfileController), Array)
+#2 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProfileController), Object(ReflectionMethod), Array)
+#3 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('ConfirmEmail')
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Profile/Confirm...')
+#8 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/connecshion/Profile/ConfirmEmail?guid=516064dbb1a8d
+---
+2013/04/06 20:32:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'invalid request' in C:\wamp\www\connecshion\protected\controllers\ProfileController.php:14
+Stack trace:
+#0 [internal function]: ProfileController->actionConfirmEmail('516064dbb1a80')
+#1 C:\wamp\www\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(ProfileController), Array)
+#2 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProfileController), Object(ReflectionMethod), Array)
+#3 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('ConfirmEmail')
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Profile/Confirm...')
+#8 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/connecshion/Profile/ConfirmEmail?guid=516064dbb1a80
+---
+2013/04/06 20:49:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'invalid request' in C:\wamp\www\connecshion\protected\controllers\ProfileController.php:14
+Stack trace:
+#0 [internal function]: ProfileController->actionConfirmEmail('516064dbb1a80')
+#1 C:\wamp\www\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(ProfileController), Array)
+#2 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProfileController), Object(ReflectionMethod), Array)
+#3 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('ConfirmEmail')
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Profile/Confirm...')
+#8 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/connecshion/Profile/ConfirmEmail?guid=516064dbb1a80
+---
+2013/04/07 15:23:56 [error] [exception.CException] exception 'CException' with message 'Property "Genre.rememberMe" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\ar\CActiveRecord.php(143): CComponent->__get('rememberMe')
+#1 C:\wamp\www\yii\framework\web\helpers\CHtml.php(2255): CActiveRecord->__get('rememberMe')
+#2 C:\wamp\www\yii\framework\web\helpers\CHtml.php(1506): CHtml::resolveValue(Object(Genre), 'rememberMe')
+#3 C:\wamp\www\connecshion\protected\modules\admin\views\genre\_form.php(32): CHtml::activeCheckBox(Object(Genre), 'rememberMe')
+#4 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\wamp\www\con...')
+#5 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\con...', Array, true)
+#6 C:\wamp\www\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\con...', Array, true)
+#7 C:\wamp\www\connecshion\protected\modules\admin\views\genre\create.php(18): CController->renderPartial('_form', Array)
+#8 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\wamp\www\con...')
+#9 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\con...', Array, true)
+#10 C:\wamp\www\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\con...', Array, true)
+#11 C:\wamp\www\yii\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#12 C:\wamp\www\connecshion\protected\modules\admin\controllers\GenreController.php(79): CController->render('create', Array)
+#13 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): GenreController->actionCreate()
+#14 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#15 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#16 C:\wamp\www\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#17 C:\wamp\www\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#18 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#19 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#20 C:\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#21 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#23 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/genre/cre...')
+#24 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#25 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#26 {main}
+REQUEST_URI=/connecshion/index.php/admin/genre/create
+HTTP_REFERER=http://localhost/connecshion/index.php/site/login
+---
+2013/04/07 17:41:14 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\wamp\www\yii\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\wamp\www\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\wamp\www\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/genre/adm...')
+#9 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/connecshion/index.php/admin/genre/admin
+HTTP_REFERER=http://localhost/connecshion/index.php/admin/genre/index
+---
+2013/04/07 17:41:21 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\wamp\www\yii\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\wamp\www\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\wamp\www\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/genre/adm...')
+#9 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/connecshion/index.php/admin/genre/admin
+---
+2013/04/07 17:43:04 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\wamp\www\yii\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\wamp\www\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\wamp\www\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/category/...')
+#9 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/connecshion/index.php/admin/category/admin
+HTTP_REFERER=http://localhost/connecshion/index.php/admin/category/view/id/1
+---
+2013/04/07 19:11:17 [error] [exception.CException] exception 'CException' with message 'Property "UserIdentity.UserId" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\connecshion\protected\models\LoginForm.php(73): CComponent->__get('UserId')
+#1 C:\wamp\www\connecshion\protected\controllers\SiteController.php(94): LoginForm->login()
+#2 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#3 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#8 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/connecshion/index.php/site/login
+HTTP_REFERER=http://localhost/connecshion/index.php/site/login
+---
+2013/04/08 09:35:57 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\wamp\www\yii\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\wamp\www\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\wamp\www\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/category/...')
+#9 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/connecshion/index.php/admin/category/admin
+HTTP_REFERER=http://localhost/connecshion/index.php/admin/category/create
+---
