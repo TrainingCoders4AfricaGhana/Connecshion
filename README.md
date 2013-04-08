@@ -10,5 +10,8 @@ to use as well as sharp and modern. It will also have to be visually appealing a
 
 1. Banybah Kossi Selom
 2. Truston Ailende
-3.HOUZIN Kwaku-Klein F.
-4. EMMANUEL NII DJATA TETTEH
+3. HOUZIN Kwaku-Klein F.
+4. Solomon Toffah
+
+We are using Yii with MySql database.
+
