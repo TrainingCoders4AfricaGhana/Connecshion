@@ -1,0 +1,1514 @@
+2013/04/10 21:36:55 [error] [php] Undefined variable: model (F:\wamp\www\connecshion\protected\views\site\index.php:42)
+Stack trace:
+#0 F:\wamp\www\yii\framework\web\CController.php(869): SiteController->renderFile()
+#1 F:\wamp\www\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#2 F:\wamp\www\connecshion\protected\controllers\SiteController.php(32): SiteController->render()
+#3 F:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 F:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 F:\wamp\www\yii\framework\web\CController.php(286): SiteController->runAction()
+#6 F:\wamp\www\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 F:\wamp\www\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 F:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 F:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 F:\wamp\www\connecshion\index.php(13): CWebApplication->run()
+REQUEST_URI=/connecshion/
+in F:\wamp\www\connecshion\protected\views\site\index.php (42)
+in F:\wamp\www\connecshion\protected\controllers\SiteController.php (32)
+in F:\wamp\www\connecshion\index.php (13)
+2013/04/10 21:39:09 [error] [php] Undefined variable: model (F:\wamp\www\connecshion\protected\views\site\index.php:37)
+Stack trace:
+#0 F:\wamp\www\yii\framework\web\CController.php(869): SiteController->renderFile()
+#1 F:\wamp\www\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#2 F:\wamp\www\connecshion\protected\controllers\SiteController.php(32): SiteController->render()
+#3 F:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 F:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 F:\wamp\www\yii\framework\web\CController.php(286): SiteController->runAction()
+#6 F:\wamp\www\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 F:\wamp\www\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 F:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 F:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 F:\wamp\www\connecshion\index.php(13): CWebApplication->run()
+REQUEST_URI=/connecshion/
+in F:\wamp\www\connecshion\protected\views\site\index.php (37)
+in F:\wamp\www\connecshion\protected\controllers\SiteController.php (32)
+in F:\wamp\www\connecshion\index.php (13)
+2013/04/10 21:51:14 [error] [php] Undefined variable: model (F:\wamp\www\connecshion\protected\views\site\index.php:41)
+Stack trace:
+#0 F:\wamp\www\yii\framework\web\CController.php(869): SiteController->renderFile()
+#1 F:\wamp\www\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#2 F:\wamp\www\connecshion\protected\controllers\SiteController.php(32): SiteController->render()
+#3 F:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 F:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 F:\wamp\www\yii\framework\web\CController.php(286): SiteController->runAction()
+#6 F:\wamp\www\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 F:\wamp\www\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 F:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 F:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 F:\wamp\www\connecshion\index.php(13): CWebApplication->run()
+REQUEST_URI=/connecshion/
+in F:\wamp\www\connecshion\protected\views\site\index.php (41)
+in F:\wamp\www\connecshion\protected\controllers\SiteController.php (32)
+in F:\wamp\www\connecshion\index.php (13)
+2013/04/10 22:10:05 [error] [exception.CException] exception 'CException' with message '"data" attribute cannot be blank' in F:\wamp\www\connecshion\protected\extensions\bootstrap\widgets\TbSelect2.php:50
+Stack trace:
+#0 F:\wamp\www\yii\framework\web\CBaseController.php(147): TbSelect2->init()
+#1 F:\wamp\www\yii\framework\web\CBaseController.php(172): CBaseController->createWidget('bootstrap.widge...', Array)
+#2 F:\wamp\www\connecshion\protected\views\site\index.php(47): CBaseController->widget('bootstrap.widge...', Array)
+#3 F:\wamp\www\yii\framework\web\CBaseController.php(126): require('F:\wamp\www\con...')
+#4 F:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('F:\wamp\www\con...', NULL, true)
+#5 F:\wamp\www\yii\framework\web\CController.php(869): CBaseController->renderFile('F:\wamp\www\con...', NULL, true)
+#6 F:\wamp\www\yii\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#7 F:\wamp\www\connecshion\protected\controllers\SiteController.php(33): CController->render('index')
+#8 F:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#9 F:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 F:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 F:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 F:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('')
+#13 F:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#14 F:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 F:\wamp\www\connecshion\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/connecshion/
+---
+2013/04/10 22:10:52 [error] [exception.CException] exception 'CException' with message '"data" attribute cannot be blank' in F:\wamp\www\connecshion\protected\extensions\bootstrap\widgets\TbSelect2.php:50
+Stack trace:
+#0 F:\wamp\www\yii\framework\web\CBaseController.php(147): TbSelect2->init()
+#1 F:\wamp\www\yii\framework\web\CBaseController.php(172): CBaseController->createWidget('bootstrap.widge...', Array)
+#2 F:\wamp\www\connecshion\protected\views\site\index.php(47): CBaseController->widget('bootstrap.widge...', Array)
+#3 F:\wamp\www\yii\framework\web\CBaseController.php(126): require('F:\wamp\www\con...')
+#4 F:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('F:\wamp\www\con...', NULL, true)
+#5 F:\wamp\www\yii\framework\web\CController.php(869): CBaseController->renderFile('F:\wamp\www\con...', NULL, true)
+#6 F:\wamp\www\yii\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#7 F:\wamp\www\connecshion\protected\controllers\SiteController.php(33): CController->render('index')
+#8 F:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#9 F:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 F:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 F:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 F:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('')
+#13 F:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#14 F:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 F:\wamp\www\connecshion\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/connecshion/
+---
+2013/04/10 22:54:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "user/translation/admin".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('user/translatio...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/connecshion/index.php/user/translation/admin
+HTTP_REFERER=http://localhost/connecshion/index.php/user/user/create
+---
+2013/04/10 22:54:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.preloader.js".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.prelo...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/connecshion/index.php/js/jquery.preloader.js
+HTTP_REFERER=http://localhost/connecshion/index.php/
+---
+2013/04/10 22:54:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/docs.css".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/docs.css')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/connecshion/index.php/css/docs.css
+HTTP_REFERER=http://localhost/connecshion/index.php/
+---
+2013/04/10 22:54:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/tm/tm_home.png".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/tm/tm_home....')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/connecshion/index.php/img/tm/tm_home.png
+HTTP_REFERER=http://localhost/connecshion/index.php/
+---
+2013/04/10 23:43:34 [error] [php] Undefined variable: model (C:\wamp\www\connecshion\protected\views\site\index.php:36)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\wamp\www\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\wamp\www\connecshion\protected\controllers\SiteController.php(32): SiteController->render()
+#3 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\wamp\www\yii\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\wamp\www\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\wamp\www\connecshion\index.php(13): CWebApplication->run()
+REQUEST_URI=/connecshion/index.php
+in C:\wamp\www\connecshion\protected\views\site\index.php (36)
+in C:\wamp\www\connecshion\protected\controllers\SiteController.php (32)
+in C:\wamp\www\connecshion\index.php (13)
+2013/04/10 23:44:33 [error] [exception.CException] exception 'CException' with message 'Property "LoginForm.username" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\helpers\CHtml.php(2255): CComponent->__get('username')
+#1 C:\wamp\www\yii\framework\web\helpers\CHtml.php(1980): CHtml::resolveValue(Object(LoginForm), 'username')
+#2 C:\wamp\www\yii\framework\web\helpers\CHtml.php(1257): CHtml::activeInputField('text', Object(LoginForm), 'username', Array)
+#3 C:\wamp\www\yii\framework\web\widgets\CActiveForm.php(657): CHtml::activeTextField(Object(LoginForm), 'username', Array)
+#4 C:\wamp\www\connecshion\protected\views\site\login.php(29): CActiveForm->textField(Object(LoginForm), 'username')
+#5 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\wamp\www\con...')
+#6 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\con...', Array, true)
+#7 C:\wamp\www\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\con...', Array, true)
+#8 C:\wamp\www\yii\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#9 C:\wamp\www\connecshion\protected\controllers\SiteController.php(93): CController->render('login', Array)
+#10 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionindex()
+#11 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#13 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('')
+#15 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#16 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#17 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/connecshion/index.php
+---
+2013/04/10 23:45:27 [error] [exception.CException] exception 'CException' with message 'Property "LoginForm.username" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\helpers\CHtml.php(2255): CComponent->__get('username')
+#1 C:\wamp\www\yii\framework\web\helpers\CHtml.php(1980): CHtml::resolveValue(Object(LoginForm), 'username')
+#2 C:\wamp\www\yii\framework\web\helpers\CHtml.php(1257): CHtml::activeInputField('text', Object(LoginForm), 'username', Array)
+#3 C:\wamp\www\yii\framework\web\widgets\CActiveForm.php(657): CHtml::activeTextField(Object(LoginForm), 'username', Array)
+#4 C:\wamp\www\connecshion\protected\views\site\login.php(29): CActiveForm->textField(Object(LoginForm), 'username')
+#5 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\wamp\www\con...')
+#6 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\con...', Array, true)
+#7 C:\wamp\www\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\con...', Array, true)
+#8 C:\wamp\www\yii\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#9 C:\wamp\www\connecshion\protected\controllers\SiteController.php(93): CController->render('login', Array)
+#10 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionindex()
+#11 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#13 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('')
+#15 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#16 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#17 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/connecshion/index.php
+---
+2013/04/10 23:45:28 [error] [exception.CException] exception 'CException' with message 'Property "LoginForm.username" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\helpers\CHtml.php(2255): CComponent->__get('username')
+#1 C:\wamp\www\yii\framework\web\helpers\CHtml.php(1980): CHtml::resolveValue(Object(LoginForm), 'username')
+#2 C:\wamp\www\yii\framework\web\helpers\CHtml.php(1257): CHtml::activeInputField('text', Object(LoginForm), 'username', Array)
+#3 C:\wamp\www\yii\framework\web\widgets\CActiveForm.php(657): CHtml::activeTextField(Object(LoginForm), 'username', Array)
+#4 C:\wamp\www\connecshion\protected\views\site\login.php(29): CActiveForm->textField(Object(LoginForm), 'username')
+#5 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\wamp\www\con...')
+#6 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\con...', Array, true)
+#7 C:\wamp\www\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\con...', Array, true)
+#8 C:\wamp\www\yii\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#9 C:\wamp\www\connecshion\protected\controllers\SiteController.php(93): CController->render('login', Array)
+#10 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionindex()
+#11 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#13 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('')
+#15 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#16 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#17 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/connecshion/index.php
+---
+2013/04/10 23:45:29 [error] [exception.CException] exception 'CException' with message 'Property "LoginForm.username" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\helpers\CHtml.php(2255): CComponent->__get('username')
+#1 C:\wamp\www\yii\framework\web\helpers\CHtml.php(1980): CHtml::resolveValue(Object(LoginForm), 'username')
+#2 C:\wamp\www\yii\framework\web\helpers\CHtml.php(1257): CHtml::activeInputField('text', Object(LoginForm), 'username', Array)
+#3 C:\wamp\www\yii\framework\web\widgets\CActiveForm.php(657): CHtml::activeTextField(Object(LoginForm), 'username', Array)
+#4 C:\wamp\www\connecshion\protected\views\site\login.php(29): CActiveForm->textField(Object(LoginForm), 'username')
+#5 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\wamp\www\con...')
+#6 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\con...', Array, true)
+#7 C:\wamp\www\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\con...', Array, true)
+#8 C:\wamp\www\yii\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#9 C:\wamp\www\connecshion\protected\controllers\SiteController.php(93): CController->render('login', Array)
+#10 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionindex()
+#11 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#13 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('')
+#15 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#16 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#17 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/connecshion/index.php
+---
+2013/04/10 23:46:14 [error] [exception.CException] exception 'CException' with message 'Property "LoginForm.username" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\helpers\CHtml.php(2255): CComponent->__get('username')
+#1 C:\wamp\www\yii\framework\web\helpers\CHtml.php(1980): CHtml::resolveValue(Object(LoginForm), 'username')
+#2 C:\wamp\www\yii\framework\web\helpers\CHtml.php(1257): CHtml::activeInputField('text', Object(LoginForm), 'username', Array)
+#3 C:\wamp\www\yii\framework\web\widgets\CActiveForm.php(657): CHtml::activeTextField(Object(LoginForm), 'username', Array)
+#4 C:\wamp\www\connecshion\protected\views\site\login.php(29): CActiveForm->textField(Object(LoginForm), 'username')
+#5 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\wamp\www\con...')
+#6 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\con...', Array, true)
+#7 C:\wamp\www\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\con...', Array, true)
+#8 C:\wamp\www\yii\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#9 C:\wamp\www\connecshion\protected\controllers\SiteController.php(93): CController->render('login', Array)
+#10 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionindex()
+#11 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#13 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('')
+#15 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#16 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#17 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/connecshion/index.php
+---
+2013/04/11 00:04:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Register".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Register')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/connecshion/index.php/Register
+---
+2013/04/11 00:04:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Register".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Register')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/connecshion/index.php/Register
+---
+2013/04/11 00:04:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.preloader.js".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.prelo...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/connecshion/index.php/js/jquery.preloader.js
+HTTP_REFERER=http://localhost/connecshion/index.php/Register
+---
+2013/04/11 00:04:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/docs.css".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/docs.css')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/connecshion/index.php/css/docs.css
+HTTP_REFERER=http://localhost/connecshion/index.php/Register
+---
+2013/04/11 00:04:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/tm/tm_home.png".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/tm/tm_home....')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/connecshion/index.php/img/tm/tm_home.png
+HTTP_REFERER=http://localhost/connecshion/index.php/Register
+---
+2013/04/11 00:05:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Register".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Register')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/connecshion/index.php/Register
+---
+2013/04/11 00:05:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.preloader.js".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.prelo...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/connecshion/index.php/js/jquery.preloader.js
+HTTP_REFERER=http://localhost/connecshion/index.php/Register
+---
+2013/04/11 00:05:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/docs.css".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/docs.css')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/connecshion/index.php/css/docs.css
+HTTP_REFERER=http://localhost/connecshion/index.php/Register
+---
+2013/04/11 00:05:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/tm/tm_home.png".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/tm/tm_home....')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/connecshion/index.php/img/tm/tm_home.png
+HTTP_REFERER=http://localhost/connecshion/index.php/Register
+---
+2013/04/11 00:05:48 [error] [exception.CException] exception 'CException' with message 'Property "User.email" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\ar\CActiveRecord.php(143): CComponent->__get('email')
+#1 C:\wamp\www\yii\framework\web\helpers\CHtml.php(2255): CActiveRecord->__get('email')
+#2 C:\wamp\www\yii\framework\web\helpers\CHtml.php(1980): CHtml::resolveValue(Object(User), 'email')
+#3 C:\wamp\www\yii\framework\web\helpers\CHtml.php(1257): CHtml::activeInputField('text', Object(User), 'email', Array)
+#4 C:\wamp\www\yii\framework\web\widgets\CActiveForm.php(657): CHtml::activeTextField(Object(User), 'email', Array)
+#5 C:\wamp\www\connecshion\protected\views\site\index.php(41): CActiveForm->textField(Object(User), 'email')
+#6 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\wamp\www\con...')
+#7 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\con...', Array, true)
+#8 C:\wamp\www\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\con...', Array, true)
+#9 C:\wamp\www\yii\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#10 C:\wamp\www\connecshion\protected\controllers\SiteController.php(81): CController->render('index', Array)
+#11 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#12 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#14 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('')
+#16 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#17 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#18 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/connecshion/index.php
+---
+2013/04/11 00:07:06 [error] [exception.CException] exception 'CException' with message 'Property "User.email" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\ar\CActiveRecord.php(143): CComponent->__get('email')
+#1 C:\wamp\www\yii\framework\web\helpers\CHtml.php(2255): CActiveRecord->__get('email')
+#2 C:\wamp\www\yii\framework\web\helpers\CHtml.php(1980): CHtml::resolveValue(Object(User), 'email')
+#3 C:\wamp\www\yii\framework\web\helpers\CHtml.php(1257): CHtml::activeInputField('text', Object(User), 'email', Array)
+#4 C:\wamp\www\yii\framework\web\widgets\CActiveForm.php(657): CHtml::activeTextField(Object(User), 'email', Array)
+#5 C:\wamp\www\connecshion\protected\views\site\index.php(41): CActiveForm->textField(Object(User), 'email')
+#6 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\wamp\www\con...')
+#7 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\con...', Array, true)
+#8 C:\wamp\www\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\con...', Array, true)
+#9 C:\wamp\www\yii\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#10 C:\wamp\www\connecshion\protected\controllers\SiteController.php(81): CController->render('index', Array)
+#11 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#12 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#14 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('')
+#16 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#17 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#18 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/connecshion/index.php
+---
+2013/04/11 00:14:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Register".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Register')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/connecshion/index.php/Register
+---
+2013/04/11 00:14:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.preloader.js".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.prelo...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/connecshion/index.php/js/jquery.preloader.js
+HTTP_REFERER=http://localhost/connecshion/index.php/Register
+---
+2013/04/11 00:14:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/docs.css".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/docs.css')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/connecshion/index.php/css/docs.css
+HTTP_REFERER=http://localhost/connecshion/index.php/Register
+---
+2013/04/11 00:14:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/tm/tm_home.png".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/tm/tm_home....')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/connecshion/index.php/img/tm/tm_home.png
+HTTP_REFERER=http://localhost/connecshion/index.php/Register
+---
+2013/04/11 00:15:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Register".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Register')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/connecshion/index.php/Register
+---
+2013/04/11 00:15:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.preloader.js".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.prelo...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/connecshion/index.php/js/jquery.preloader.js
+HTTP_REFERER=http://localhost/connecshion/index.php/Register
+---
+2013/04/11 00:15:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/docs.css".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/docs.css')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/connecshion/index.php/css/docs.css
+HTTP_REFERER=http://localhost/connecshion/index.php/Register
+---
+2013/04/11 00:15:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/tm/tm_home.png".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/tm/tm_home....')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/connecshion/index.php/img/tm/tm_home.png
+HTTP_REFERER=http://localhost/connecshion/index.php/Register
+---
+2013/04/11 00:15:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Register".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Register')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/connecshion/index.php/Register
+---
+2013/04/11 00:15:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.preloader.js".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.prelo...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/connecshion/index.php/js/jquery.preloader.js
+HTTP_REFERER=http://localhost/connecshion/index.php/Register
+---
+2013/04/11 00:15:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/docs.css".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/docs.css')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/connecshion/index.php/css/docs.css
+HTTP_REFERER=http://localhost/connecshion/index.php/Register
+---
+2013/04/11 00:15:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/tm/tm_home.png".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/tm/tm_home....')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/connecshion/index.php/img/tm/tm_home.png
+HTTP_REFERER=http://localhost/connecshion/index.php/Register
+---
+2013/04/11 00:16:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Register".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Register')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/connecshion/index.php/Register
+---
+2013/04/11 00:16:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.preloader.js".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.prelo...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/connecshion/index.php/js/jquery.preloader.js
+HTTP_REFERER=http://localhost/connecshion/index.php/Register
+---
+2013/04/11 00:16:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/docs.css".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/docs.css')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/connecshion/index.php/css/docs.css
+HTTP_REFERER=http://localhost/connecshion/index.php/Register
+---
+2013/04/11 00:16:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/tm/tm_home.png".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/tm/tm_home....')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/connecshion/index.php/img/tm/tm_home.png
+HTTP_REFERER=http://localhost/connecshion/index.php/Register
+---
+2013/04/11 00:16:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Register".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Register')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/connecshion/index.php/Register
+---
+2013/04/11 00:16:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.preloader.js".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.prelo...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/connecshion/index.php/js/jquery.preloader.js
+HTTP_REFERER=http://localhost/connecshion/index.php/Register
+---
+2013/04/11 00:16:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/docs.css".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/docs.css')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/connecshion/index.php/css/docs.css
+HTTP_REFERER=http://localhost/connecshion/index.php/Register
+---
+2013/04/11 00:16:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/tm/tm_home.png".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/tm/tm_home....')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/connecshion/index.php/img/tm/tm_home.png
+HTTP_REFERER=http://localhost/connecshion/index.php/Register
+---
+2013/04/11 00:17:01 [error] [php] Undefined variable: model (C:\wamp\www\connecshion\protected\views\site\index.php:41)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\wamp\www\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\wamp\www\connecshion\protected\controllers\SiteController.php(76): SiteController->render()
+#3 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\wamp\www\yii\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\wamp\www\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\wamp\www\connecshion\index.php(13): CWebApplication->run()
+REQUEST_URI=/connecshion/index.php
+in C:\wamp\www\connecshion\protected\views\site\index.php (41)
+in C:\wamp\www\connecshion\protected\controllers\SiteController.php (76)
+in C:\wamp\www\connecshion\index.php (13)
+2013/04/11 00:17:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Register".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Register')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/connecshion/Register
+---
+2013/04/11 00:17:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "index/Register".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('index/Register')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/connecshion/index/Register
+---
+2013/04/11 00:17:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "index/js/jquery.preloader.js".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('index/js/jquery...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/connecshion/index/js/jquery.preloader.js
+HTTP_REFERER=http://localhost/connecshion/index/Register
+---
+2013/04/11 00:17:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "index/css/docs.css".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('index/css/docs....')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/connecshion/index/css/docs.css
+HTTP_REFERER=http://localhost/connecshion/index/Register
+---
+2013/04/11 00:17:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "index/img/tm/tm_home.png".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('index/img/tm/tm...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/connecshion/index/img/tm/tm_home.png
+HTTP_REFERER=http://localhost/connecshion/index/Register
+---
+2013/04/11 00:18:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "index".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('index')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/connecshion/index
+---
+2013/04/11 00:18:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/js/jquery....')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/connecshion/index.php/site/js/jquery.preloader.js
+HTTP_REFERER=http://localhost/connecshion/index.php/site/afterRegister
+---
+2013/04/11 00:18:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('css')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('css')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/css/docs.c...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/connecshion/index.php/site/css/docs.css
+HTTP_REFERER=http://localhost/connecshion/index.php/site/afterRegister
+---
+2013/04/11 00:18:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/tm/tm_...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/connecshion/index.php/site/img/tm/tm_home.png
+HTTP_REFERER=http://localhost/connecshion/index.php/site/afterRegister
+---
+2013/04/11 05:06:29 [error] [exception.CException] exception 'CException' with message 'Alias "ext.editable.TbEditableField" is invalid. Make sure it points to an existing PHP file and the file is readable.' in C:\wamp\www\yii\framework\YiiBase.php:316
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWidgetFactory.php(146): YiiBase::import('ext.editable.Tb...', true)
+#1 C:\wamp\www\yii\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(SiteController), 'ext.editable.Tb...', Array)
+#2 C:\wamp\www\yii\framework\web\CBaseController.php(172): CBaseController->createWidget('ext.editable.Tb...', Array)
+#3 C:\wamp\www\connecshion\protected\views\site\index.php(52): CBaseController->widget('ext.editable.Tb...', Array)
+#4 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\wamp\www\con...')
+#5 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\con...', Array, true)
+#6 C:\wamp\www\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\con...', Array, true)
+#7 C:\wamp\www\yii\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#8 C:\wamp\www\connecshion\protected\controllers\SiteController.php(95): CController->render('index', Array)
+#9 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#10 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('')
+#14 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#15 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#16 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/connecshion/
+---
+2013/04/11 05:07:00 [error] [exception.CException] exception 'CException' with message 'Property "TbEditableField.enabled" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWidgetFactory.php(161): CComponent->__set('enabled', true)
+#1 C:\wamp\www\yii\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(SiteController), 'bootstrap.widge...', Array)
+#2 C:\wamp\www\yii\framework\web\CBaseController.php(172): CBaseController->createWidget('bootstrap.widge...', Array)
+#3 C:\wamp\www\connecshion\protected\views\site\index.php(52): CBaseController->widget('bootstrap.widge...', Array)
+#4 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\wamp\www\con...')
+#5 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\con...', Array, true)
+#6 C:\wamp\www\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\con...', Array, true)
+#7 C:\wamp\www\yii\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#8 C:\wamp\www\connecshion\protected\controllers\SiteController.php(95): CController->render('index', Array)
+#9 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#10 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('')
+#14 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#15 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#16 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/connecshion/
+---
+2013/04/11 05:07:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/glyphicons-halflings-white.png".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/glyphicons-...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/connecshion/img/glyphicons-halflings-white.png
+HTTP_REFERER=http://localhost/connecshion/
+---
+2013/04/11 05:07:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/glyphicons-halflings.png".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/glyphicons-...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/connecshion/img/glyphicons-halflings.png
+HTTP_REFERER=http://localhost/connecshion/
+---
+2013/04/11 05:07:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/glyphicons-halflings-white.png".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/glyphicons-...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/connecshion/img/glyphicons-halflings-white.png
+HTTP_REFERER=http://localhost/connecshion/
+---
+2013/04/11 05:07:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/glyphicons-halflings.png".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/glyphicons-...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/connecshion/img/glyphicons-halflings.png
+HTTP_REFERER=http://localhost/connecshion/
+---
+2013/04/11 05:14:36 [error] [php] Undefined variable: models (C:\wamp\www\connecshion\protected\views\site\index.php:43)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\wamp\www\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\wamp\www\connecshion\protected\controllers\SiteController.php(95): SiteController->render()
+#3 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\wamp\www\yii\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\wamp\www\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\wamp\www\connecshion\index.php(13): CWebApplication->run()
+REQUEST_URI=/connecshion/
+in C:\wamp\www\connecshion\protected\views\site\index.php (43)
+in C:\wamp\www\connecshion\protected\controllers\SiteController.php (95)
+in C:\wamp\www\connecshion\index.php (13)
+2013/04/11 05:15:06 [error] [php] Undefined variable: list (C:\wamp\www\connecshion\protected\views\site\index.php:43)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\wamp\www\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\wamp\www\connecshion\protected\controllers\SiteController.php(95): SiteController->render()
+#3 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\wamp\www\yii\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\wamp\www\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\wamp\www\connecshion\index.php(13): CWebApplication->run()
+REQUEST_URI=/connecshion/
+in C:\wamp\www\connecshion\protected\views\site\index.php (43)
+in C:\wamp\www\connecshion\protected\controllers\SiteController.php (95)
+in C:\wamp\www\connecshion\index.php (13)
+2013/04/11 05:18:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/js/jquery....')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/connecshion/index.php/site/js/jquery.preloader.js
+HTTP_REFERER=http://localhost/connecshion/index.php/site/afterRegister
+---
+2013/04/11 05:18:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('css')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('css')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/css/docs.c...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/connecshion/index.php/site/css/docs.css
+HTTP_REFERER=http://localhost/connecshion/index.php/site/afterRegister
+---
+2013/04/11 05:18:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/tm/tm_...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/connecshion/index.php/site/img/tm/tm_home.png
+HTTP_REFERER=http://localhost/connecshion/index.php/site/afterRegister
+---
+2013/04/11 05:19:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/js/jquery....')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/connecshion/index.php/site/js/jquery.preloader.js
+HTTP_REFERER=http://localhost/connecshion/index.php/site/afterRegister
+---
+2013/04/11 05:19:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('css')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('css')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/css/docs.c...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/connecshion/index.php/site/css/docs.css
+HTTP_REFERER=http://localhost/connecshion/index.php/site/afterRegister
+---
+2013/04/11 05:19:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/tm/tm_...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/connecshion/index.php/site/img/tm/tm_home.png
+HTTP_REFERER=http://localhost/connecshion/index.php/site/afterRegister
+---
+2013/04/11 05:22:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/js/jquery....')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/connecshion/index.php/site/js/jquery.preloader.js
+HTTP_REFERER=http://localhost/connecshion/index.php/site/afterRegister
+---
+2013/04/11 05:22:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('css')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('css')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/css/docs.c...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/connecshion/index.php/site/css/docs.css
+HTTP_REFERER=http://localhost/connecshion/index.php/site/afterRegister
+---
+2013/04/11 05:22:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/tm/tm_...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/connecshion/index.php/site/img/tm/tm_home.png
+HTTP_REFERER=http://localhost/connecshion/index.php/site/afterRegister
+---
+2013/04/11 05:31:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/js/jquery....')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/connecshion/index.php/site/js/jquery.preloader.js
+HTTP_REFERER=http://localhost/connecshion/index.php/site/
+---
+2013/04/11 05:31:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('css')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('css')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/css/docs.c...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/connecshion/index.php/site/css/docs.css
+HTTP_REFERER=http://localhost/connecshion/index.php/site/
+---
+2013/04/11 05:31:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/tm/tm_...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/connecshion/index.php/site/img/tm/tm_home.png
+HTTP_REFERER=http://localhost/connecshion/index.php/site/
+---
+2013/04/11 05:33:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/js/jquery....')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/connecshion/index.php/site/js/jquery.preloader.js
+HTTP_REFERER=http://localhost/connecshion/index.php/site/
+---
+2013/04/11 05:33:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('css')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('css')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/css/docs.c...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/connecshion/index.php/site/css/docs.css
+HTTP_REFERER=http://localhost/connecshion/index.php/site/
+---
+2013/04/11 05:33:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/tm/tm_...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/connecshion/index.php/site/img/tm/tm_home.png
+HTTP_REFERER=http://localhost/connecshion/index.php/site/
+---
+2013/04/11 05:37:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/js/jquery....')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/connecshion/index.php/site/js/jquery.preloader.js
+HTTP_REFERER=http://localhost/connecshion/index.php/site/
+---
+2013/04/11 05:37:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('css')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('css')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/css/docs.c...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/connecshion/index.php/site/css/docs.css
+HTTP_REFERER=http://localhost/connecshion/index.php/site/
+---
+2013/04/11 05:37:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/tm/tm_...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/connecshion/index.php/site/img/tm/tm_home.png
+HTTP_REFERER=http://localhost/connecshion/index.php/site/
+---
+2013/04/11 05:38:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/js/jquery....')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/connecshion/index.php/site/js/jquery.preloader.js
+HTTP_REFERER=http://localhost/connecshion/index.php/site/
+---
+2013/04/11 05:38:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('css')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('css')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/css/docs.c...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/connecshion/index.php/site/css/docs.css
+HTTP_REFERER=http://localhost/connecshion/index.php/site/
+---
+2013/04/11 05:38:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/tm/tm_...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/connecshion/index.php/site/img/tm/tm_home.png
+HTTP_REFERER=http://localhost/connecshion/index.php/site/
+---
+2013/04/11 05:39:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/js/jquery....')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/connecshion/index.php/site/js/jquery.preloader.js
+HTTP_REFERER=http://localhost/connecshion/index.php/site/
+---
+2013/04/11 05:39:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('css')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('css')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/css/docs.c...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/connecshion/index.php/site/css/docs.css
+HTTP_REFERER=http://localhost/connecshion/index.php/site/
+---
+2013/04/11 05:39:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/tm/tm_...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/connecshion/index.php/site/img/tm/tm_home.png
+HTTP_REFERER=http://localhost/connecshion/index.php/site/
+---
+2013/04/11 05:39:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/js/jquery....')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/connecshion/index.php/site/js/jquery.preloader.js
+HTTP_REFERER=http://localhost/connecshion/index.php/site/
+---
+2013/04/11 05:39:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('css')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('css')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/css/docs.c...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/connecshion/index.php/site/css/docs.css
+HTTP_REFERER=http://localhost/connecshion/index.php/site/
+---
+2013/04/11 05:39:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/tm/tm_...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/connecshion/index.php/site/img/tm/tm_home.png
+HTTP_REFERER=http://localhost/connecshion/index.php/site/
+---
+2013/04/11 05:40:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/js/jquery....')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/connecshion/index.php/site/js/jquery.preloader.js
+HTTP_REFERER=http://localhost/connecshion/index.php/site/
+---
+2013/04/11 05:40:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('css')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('css')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/css/docs.c...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/connecshion/index.php/site/css/docs.css
+HTTP_REFERER=http://localhost/connecshion/index.php/site/
+---
+2013/04/11 05:40:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/tm/tm_...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/connecshion/index.php/site/img/tm/tm_home.png
+HTTP_REFERER=http://localhost/connecshion/index.php/site/
+---
+2013/04/11 05:40:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/js/jquery....')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/connecshion/index.php/site/js/jquery.preloader.js
+HTTP_REFERER=http://localhost/connecshion/index.php/site/
+---
+2013/04/11 05:40:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('css')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('css')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/css/docs.c...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/connecshion/index.php/site/css/docs.css
+HTTP_REFERER=http://localhost/connecshion/index.php/site/
+---
+2013/04/11 05:40:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/tm/tm_...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/connecshion/index.php/site/img/tm/tm_home.png
+HTTP_REFERER=http://localhost/connecshion/index.php/site/
+---
+2013/04/11 05:41:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/js/jquery....')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/connecshion/index.php/site/js/jquery.preloader.js
+HTTP_REFERER=http://localhost/connecshion/index.php/site/
+---
+2013/04/11 05:41:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('css')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('css')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/css/docs.c...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/connecshion/index.php/site/css/docs.css
+HTTP_REFERER=http://localhost/connecshion/index.php/site/
+---
+2013/04/11 05:41:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/tm/tm_...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/connecshion/index.php/site/img/tm/tm_home.png
+HTTP_REFERER=http://localhost/connecshion/index.php/site/
+---
+2013/04/11 05:41:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/js/jquery....')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/connecshion/index.php/site/js/jquery.preloader.js
+HTTP_REFERER=http://localhost/connecshion/index.php/site/
+---
+2013/04/11 05:41:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('css')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('css')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/css/docs.c...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/connecshion/index.php/site/css/docs.css
+HTTP_REFERER=http://localhost/connecshion/index.php/site/
+---
+2013/04/11 05:41:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/tm/tm_...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/connecshion/index.php/site/img/tm/tm_home.png
+HTTP_REFERER=http://localhost/connecshion/index.php/site/
+---
+2013/04/11 05:41:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/js/jquery....')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/connecshion/index.php/site/js/jquery.preloader.js
+HTTP_REFERER=http://localhost/connecshion/index.php/site/
+---
+2013/04/11 05:41:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('css')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('css')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/css/docs.c...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/connecshion/index.php/site/css/docs.css
+HTTP_REFERER=http://localhost/connecshion/index.php/site/
+---
+2013/04/11 05:41:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/tm/tm_...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/connecshion/index.php/site/img/tm/tm_home.png
+HTTP_REFERER=http://localhost/connecshion/index.php/site/
+---
+2013/04/11 05:42:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/js/jquery....')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/connecshion/index.php/site/js/jquery.preloader.js
+HTTP_REFERER=http://localhost/connecshion/index.php/site/afterRegister
+---
+2013/04/11 05:42:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('css')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('css')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/css/docs.c...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/connecshion/index.php/site/css/docs.css
+HTTP_REFERER=http://localhost/connecshion/index.php/site/afterRegister
+---
+2013/04/11 05:42:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/tm/tm_...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/connecshion/index.php/site/img/tm/tm_home.png
+HTTP_REFERER=http://localhost/connecshion/index.php/site/afterRegister
+---
+2013/04/11 05:44:18 [error] [php] Undefined variable: model (C:\wamp\www\connecshion\protected\views\site\afterRegister.php:34)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\wamp\www\yii\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\wamp\www\connecshion\protected\controllers\SiteController.php(124): SiteController->render()
+#3 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionAfterRegister()
+#4 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\wamp\www\yii\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\wamp\www\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\wamp\www\connecshion\index.php(13): CWebApplication->run()
+REQUEST_URI=/connecshion/index.php/site/afterRegister
+in C:\wamp\www\connecshion\protected\views\site\afterRegister.php (34)
+in C:\wamp\www\connecshion\protected\controllers\SiteController.php (124)
+in C:\wamp\www\connecshion\index.php (13)
+2013/04/11 05:44:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('js')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('js')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/js/jquery....')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/connecshion/index.php/site/js/jquery.preloader.js
+HTTP_REFERER=http://localhost/connecshion/index.php/site/afterRegister
+---
+2013/04/11 05:44:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('css')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('css')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/css/docs.c...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/connecshion/index.php/site/css/docs.css
+HTTP_REFERER=http://localhost/connecshion/index.php/site/afterRegister
+---
+2013/04/11 05:44:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/tm/tm_...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/connecshion/index.php/site/img/tm/tm_home.png
+HTTP_REFERER=http://localhost/connecshion/index.php/site/afterRegister
+---
+2013/04/11 05:49:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('css')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('css')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/css/docs.c...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/connecshion/index.php/site/css/docs.css
+HTTP_REFERER=http://localhost/connecshion/index.php/site/afterRegister
+---
+2013/04/11 05:49:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/tm/tm_...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/connecshion/index.php/site/img/tm/tm_home.png
+HTTP_REFERER=http://localhost/connecshion/index.php/site/afterRegister
+---
+2013/04/11 05:49:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/loader...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/connecshion/index.php/site/img/loader.gif
+HTTP_REFERER=http://localhost/connecshion/index.php/site/afterRegister
+---
+2013/04/11 05:50:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('css')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('css')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/css/docs.c...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/connecshion/index.php/site/css/docs.css
+HTTP_REFERER=http://localhost/connecshion/index.php/site/afterRegister
+---
+2013/04/11 05:50:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/tm/tm_...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/connecshion/index.php/site/img/tm/tm_home.png
+HTTP_REFERER=http://localhost/connecshion/index.php/site/afterRegister
+---
+2013/04/11 05:50:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/loader...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/connecshion/index.php/site/img/loader.gif
+HTTP_REFERER=http://localhost/connecshion/index.php/site/afterRegister
+---
+2013/04/11 05:51:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('css')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('css')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/css/docs.c...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/connecshion/index.php/site/css/docs.css
+HTTP_REFERER=http://localhost/connecshion/index.php/site/afterRegister
+---
+2013/04/11 05:51:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/tm/tm_...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/connecshion/index.php/site/img/tm/tm_home.png
+HTTP_REFERER=http://localhost/connecshion/index.php/site/afterRegister
+---
+2013/04/11 05:51:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/loader...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/connecshion/index.php/site/img/loader.gif
+HTTP_REFERER=http://localhost/connecshion/index.php/site/afterRegister
+---
+2013/04/11 05:51:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('css')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('css')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/css/docs.c...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/connecshion/index.php/site/css/docs.css
+HTTP_REFERER=http://localhost/connecshion/index.php/site/afterRegister
+---
+2013/04/11 05:51:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/tm/tm_...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/connecshion/index.php/site/img/tm/tm_home.png
+HTTP_REFERER=http://localhost/connecshion/index.php/site/afterRegister
+---
+2013/04/11 05:51:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/loader...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/connecshion/index.php/site/img/loader.gif
+HTTP_REFERER=http://localhost/connecshion/index.php/site/afterRegister
+---
+2013/04/11 05:52:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('css')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('css')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/css/docs.c...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/connecshion/index.php/site/css/docs.css
+HTTP_REFERER=http://localhost/connecshion/index.php/site/afterRegister
+---
+2013/04/11 05:52:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/tm/tm_...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/connecshion/index.php/site/img/tm/tm_home.png
+HTTP_REFERER=http://localhost/connecshion/index.php/site/afterRegister
+---
+2013/04/11 05:52:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/loader...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/connecshion/index.php/site/img/loader.gif
+HTTP_REFERER=http://localhost/connecshion/index.php/site/afterRegister
+---
+2013/04/11 05:52:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/docs.css".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/docs.css')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/connecshion/index.php/css/docs.css
+HTTP_REFERER=http://localhost/connecshion/index.php/
+---
+2013/04/11 05:52:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/tm/tm_home.png".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/tm/tm_home....')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/connecshion/index.php/img/tm/tm_home.png
+HTTP_REFERER=http://localhost/connecshion/index.php/
+---
+2013/04/11 05:52:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/loader.gif".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/loader.gif')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\connecshion\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/connecshion/index.php/img/loader.gif
+HTTP_REFERER=http://localhost/connecshion/index.php/
+---
