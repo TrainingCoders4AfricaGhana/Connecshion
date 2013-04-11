@@ -23,7 +23,7 @@ $this->pageTitle=Yii::app()->name;
         <div class="block-slogan">
               <h2>Welcome!</h2>
               <div>
-            <p><a href="http://www.oswt.co.uk" target="_blank" class="link-1">Click here</a> for more info about this free website template created by TemplateMonster.com. This is a Bootstrap template that goes with several layout options (for desktop, tablet, smartphone landscape and portrait) to fit all popular screen resolutions. The PSD source files of this template are available for free for the registered members of TemplateMonster.com. Feel free to get them!</p>
+            <p><a href="http://www.coders4africa.org" target="_blank" class="link-1">Click here</a> for more info on Coders4Africa, the original source that provides African programmers and developers a gateway to free high quality training and certification in the main technologies and platforms that currently dominate the software development industry.</p>
           </div>
 		  <div>
 		  
